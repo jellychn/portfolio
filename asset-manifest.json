@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jellychn/portfolio/static/css/main.273aaf58.chunk.css",
+    "main.css": "/jellychn/portfolio/static/css/main.fb81308d.chunk.css",
     "main.js": "/jellychn/portfolio/static/js/main.8e2c0f72.chunk.js",
     "main.js.map": "/jellychn/portfolio/static/js/main.8e2c0f72.chunk.js.map",
     "runtime-main.js": "/jellychn/portfolio/static/js/runtime-main.1da6b6af.js",
@@ -8,9 +8,9 @@
     "static/js/2.6a075f13.chunk.js": "/jellychn/portfolio/static/js/2.6a075f13.chunk.js",
     "static/js/2.6a075f13.chunk.js.map": "/jellychn/portfolio/static/js/2.6a075f13.chunk.js.map",
     "index.html": "/jellychn/portfolio/index.html",
-    "precache-manifest.801faedcb06b630e9f03f49d12af6c6d.js": "/jellychn/portfolio/precache-manifest.801faedcb06b630e9f03f49d12af6c6d.js",
+    "precache-manifest.38d0d72446dc59a2db4b57b37d39afa2.js": "/jellychn/portfolio/precache-manifest.38d0d72446dc59a2db4b57b37d39afa2.js",
     "service-worker.js": "/jellychn/portfolio/service-worker.js",
-    "static/css/main.273aaf58.chunk.css.map": "/jellychn/portfolio/static/css/main.273aaf58.chunk.css.map",
+    "static/css/main.fb81308d.chunk.css.map": "/jellychn/portfolio/static/css/main.fb81308d.chunk.css.map",
     "static/js/2.6a075f13.chunk.js.LICENSE.txt": "/jellychn/portfolio/static/js/2.6a075f13.chunk.js.LICENSE.txt",
     "static/media/cart.JPG": "/jellychn/portfolio/static/media/cart.0f4729a2.JPG",
     "static/media/display-page.JPG": "/jellychn/portfolio/static/media/display-page.c18cf23c.JPG",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.1da6b6af.js",
     "static/js/2.6a075f13.chunk.js",
-    "static/css/main.273aaf58.chunk.css",
+    "static/css/main.fb81308d.chunk.css",
     "static/js/main.8e2c0f72.chunk.js"
   ]
 }
