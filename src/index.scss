@@ -1,0 +1,413 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #header {
+    padding: 30px 30px 30px 60px;
+
+    .navigation {
+      p {
+        font-size: 10px;
+      }
+    }
+  }
+
+  .social-icon-container {
+    bottom: 50px;
+
+    .social-icon {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  #home {
+    margin: auto;
+    padding: 150px 30px 30px 60px;
+
+    .shape-right {
+      display: none;
+    }
+
+    .home-info {
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  #about {
+    padding: 0px 30px 30px 60px;
+
+    h1 {
+      font-size: 30px;
+    }
+
+    .about-info {
+      margin-left: 20px;
+
+      p {
+        font-size: 15px;
+      }
+    }
+
+    .skills-container {
+      h1 {
+        margin-bottom: 40px;
+      }
+
+      .indicator {
+        margin: 0 20px 0 auto;
+      }
+
+      p, h3, h4 {
+        margin-right: 20px;
+      }
+
+      p {
+        margin: 20px 20px 5px 0;
+      }
+    }
+  }
+
+  #experience {
+    padding: 0px 30px 30px 60px;
+
+    .projects {
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .project {
+        height: auto;
+
+        .project-core {
+          display: block;
+
+          .left {
+            margin-bottom: 40px;
+          }
+
+          .right {
+            width: 100%;
+            text-align: left;
+
+            .technologies {
+              p{
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+
+        .project-links {
+          p {
+            margin: 10px 10px 0 0;
+          }
+        }
+      }
+    }
+  }
+
+  #contact {
+    .shape-right {
+      display: none;
+    }
+
+    .contact-info {
+      h1 {
+        font-size: 40px;
+      }
+
+      button {
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #header {
+    padding: 20px;
+
+    .navigation {
+      p {
+        font-size: 10px;
+      }
+    }
+  }
+
+  .social-icon-container {
+    bottom: 50px;
+    
+    .social-icon {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  #home {
+    height: 100vh;
+    padding: 180px 60px 30px 30px;
+
+    .shape-right {
+      display: block;
+    }
+
+    .home-info {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+
+      h1 {
+        font-size: 40px;
+      }
+
+      .bio {
+        width: 300px;
+      }
+    }
+  }
+
+  #about {
+    padding: 60px 60px 60px 80px;
+
+    h1 {
+      font-size: 40px;
+    }
+
+    .about-info {
+      margin-left: 40px;
+
+      p {
+        font-size: 20px;
+      }
+    }
+
+    .skills-container {
+      h1 {
+        margin-bottom: 60px;
+      }
+
+      .indicator {
+        margin: 0 40px 0 auto;
+      }
+
+      p, h3, h4 {
+        margin-right: 40px;
+      }
+
+      p {
+        margin: 20px 40px 5px 0;
+      }
+    }
+  }
+
+  #experience {
+    padding: 60px 60px 60px 80px;
+
+    .projects {
+
+      h1 {
+        font-size: 40px;
+      }
+
+      .project {
+
+        .project-core {
+          display: flex;
+
+          .left {
+            padding-right: 30px;
+          }
+
+          .right {
+            width: 50%;
+            text-align: right;
+
+            .technologies {
+              p{
+                margin-left: 10px;
+              }
+            }
+          }
+        }
+
+        .project-links {
+          p {
+            margin: 10px 5px 0 5px;
+          }
+        }
+      }
+    }
+  }
+
+  #contact {
+    .shape-right {
+      display: block;
+    }
+
+    .contact-info {
+      h1 {
+        font-size: 60px;
+      }
+
+      button {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #header {
+    padding: 60px 60px 20px 60px;
+
+    .navigation {
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .social-icon-container {
+    bottom: 100px;
+    
+    .social-icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  #home {
+    height: 100vh;
+    padding: 180px 60px 30px 30px;
+
+    .shape-right {
+      display: block;
+    }
+
+    .home-info {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+
+      h1 {
+        font-size: 40px;
+      }
+
+      .bio {
+        width: 300px;
+      }
+    }
+  }
+
+  #about {
+    padding: 60px 60px 60px 80px;
+
+    h1 {
+      font-size: 40px;
+    }
+
+    .about-info {
+      margin-left: 40px;
+
+      p {
+        font-size: 20px;
+      }
+    }
+
+    .skills-container {
+      h1 {
+        margin-bottom: 60px;
+      }
+
+      .indicator {
+        margin: 0 40px 0 auto;
+      }
+
+      p, h3, h4 {
+        margin-right: 40px;
+      }
+
+      p {
+        margin: 20px 40px 5px 0;
+      }
+    }
+  }
+
+  #experience {
+    padding: 60px 60px 60px 80px;
+
+    .projects {
+
+      h1 {
+        font-size: 40px;
+      }
+
+      .project {
+        .project-core {
+          display: flex;
+
+          .left {
+            padding-right: 30px;
+          }
+
+          .right {
+            width: 50%;
+            text-align: right;
+
+            .technologies {
+              p{
+                margin-left: 10px;
+              }
+            }
+          }
+        }
+
+        .project-links {
+          p {
+            margin: 10px 5px 0 5px;
+          }
+        }
+      }
+    }
+  }
+
+  #contact {
+    .shape-right {
+      display: block;
+    }
+
+    .contact-info {
+      h1 {
+        font-size: 60px;
+      }
+
+      button {
+        font-size: 15px;
+      }
+    }
+  }
+}
