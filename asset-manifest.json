@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.85d71045.chunk.css",
-    "main.js": "/portfolio/static/js/main.0fcca44d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0fcca44d.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.594d51bf.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.594d51bf.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/js/2.61802454.chunk.js": "/portfolio/static/js/2.61802454.chunk.js",
     "static/js/2.61802454.chunk.js.map": "/portfolio/static/js/2.61802454.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.222a1344aa1afca3a64ba93e9aa0c8d8.js": "/portfolio/precache-manifest.222a1344aa1afca3a64ba93e9aa0c8d8.js",
+    "precache-manifest.58156dbfd83fea34612ab96b96d240bb.js": "/portfolio/precache-manifest.58156dbfd83fea34612ab96b96d240bb.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.85d71045.chunk.css.map": "/portfolio/static/css/main.85d71045.chunk.css.map",
     "static/js/2.61802454.chunk.js.LICENSE.txt": "/portfolio/static/js/2.61802454.chunk.js.LICENSE.txt",
@@ -17,14 +17,14 @@
     "static/media/github.svg": "/portfolio/static/media/github.7705d555.svg",
     "static/media/instagram.svg": "/portfolio/static/media/instagram.8551cc64.svg",
     "static/media/java.svg": "/portfolio/static/media/java.2cdd0acb.svg",
-    "static/media/javascript.svg": "/portfolio/static/media/javascript.61ed8b05.svg",
+    "static/media/javascript.svg": "/portfolio/static/media/javascript.891a71b9.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.0eb46cd1.svg",
     "static/media/App.scss": "/portfolio/static/media/logo.e509fa8d.png",
     "static/media/mobile-display.JPG": "/portfolio/static/media/mobile-display.519d71ca.JPG",
     "static/media/mobile-form.JPG": "/portfolio/static/media/mobile-form.7f71c010.JPG",
     "static/media/mongodb.svg": "/portfolio/static/media/mongodb.2985235d.svg",
     "static/media/node.svg": "/portfolio/static/media/node.b337a2fb.svg",
-    "static/media/photoshop.svg": "/portfolio/static/media/photoshop.44676395.svg",
+    "static/media/photoshop.svg": "/portfolio/static/media/photoshop.4f9a4473.svg",
     "static/media/python.svg": "/portfolio/static/media/python.146716bd.svg",
     "static/media/react.svg": "/portfolio/static/media/react.c3fbd71b.svg",
     "static/media/redux.svg": "/portfolio/static/media/redux.aa0a3376.svg",
@@ -36,6 +36,6 @@
     "static/js/runtime-main.209c2d7e.js",
     "static/js/2.61802454.chunk.js",
     "static/css/main.85d71045.chunk.css",
-    "static/js/main.0fcca44d.chunk.js"
+    "static/js/main.594d51bf.chunk.js"
   ]
 }
