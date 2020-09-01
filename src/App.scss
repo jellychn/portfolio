@@ -36,6 +36,23 @@ html {
   }
 }
 
+// modal
+.modal {
+  cursor: pointer;
+  z-index: 2;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+
+  embed {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
 // Social
 .social-media-container {
   padding: 10px 10px 10px 20px;
@@ -47,11 +64,26 @@ html {
 
   .social-icon-container {
     position: absolute;
-
-    .social-icon {
+    
+    .social-icon-wrapper {
+      display: flex;
       margin-bottom: 15px;
-      background-size: cover;
-      cursor: pointer;
+
+      .social-icon {
+        background-size: cover;
+        cursor: pointer;
+      }
+
+      p {
+        margin: auto 0 auto 10px;
+        font-size: 8px;
+        font-weight: bold;
+        padding: 6px 10px;
+        background-color: #eee;
+        border-radius: 5px;
+        color: darkgray;
+        border: 1px solid white;
+      }
     }
   }
 }
@@ -155,6 +187,28 @@ html {
     p {
       color: darkgray;
     }
+
+    .skill-container {
+      width: 100%;
+
+      .skill {
+        display: flex;
+        margin: 20px 0;
+        justify-content: flex-end;
+
+        p {
+          margin: none;
+        }
+
+        .skill-icon {
+          width: 20px;
+          height: 20px;
+          margin: auto 0 0 10px;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      }
+    }
   }
 }
 
@@ -168,6 +222,7 @@ html {
     margin: 0 auto;
 
     .project {
+      margin-bottom: 60px;
 
       .project-core {
         max-height: 100%;
@@ -182,13 +237,8 @@ html {
 
             .next, .prev {
               margin: 10px 5px 0 5px;
-              cursor: pointer;
               font-weight: bold;
               color: darkgray;
-
-              &:hover {
-                color: #1C1B20;
-              }
             }
           }
 
@@ -298,7 +348,7 @@ html {
     button {
       margin-top: 60px;
       padding: 20px;
-      background-color: #1C1B20;
+      background-color: #FF5850;
       color: #eee;
       font-weight: bold;
       border-radius: 5px;
@@ -307,7 +357,7 @@ html {
       border: none;
 
       &:hover {
-        background-color: #FF5850;
+        background-color: #1C1B20;
       }
     }
   }

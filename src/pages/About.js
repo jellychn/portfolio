@@ -1,4 +1,14 @@
 import React from 'react';
+import ReactJS from '../assets/icons/react.svg';
+import ReactRedux from '../assets/icons/redux.svg';
+import VueJS from '../assets/icons/vue.svg';
+import SCSS from '../assets/icons/sass.svg';
+import NodeJS from '../assets/icons/node.svg';
+import MongoDB from '../assets/icons/mongodb.svg';
+import PhotoShop from '../assets/icons/photoshop.svg';
+import Python from '../assets/icons/python.svg';
+import JavaScript from '../assets/icons/javascript.svg';
+import Java from '../assets/icons/java.svg';
 
 class About extends React.Component {
     render () {
@@ -23,32 +33,82 @@ class About extends React.Component {
                     <h1>SKILLS.</h1>
                     <h3>FONTEND</h3>
                     <h4>FRAMEWORKS</h4>
-                    <p>ReactJS</p>
-                    <div className='indicator' style={{width: '50%'}}/>
-                    <p>React REDUX</p>
-                    <div className='indicator' style={{width: '50%'}}/>
-                    <p>VueJS</p>
-                    <div className='indicator' style={{width: '20%'}}/>
+                    <div className='skill-container'>
+                        <div className='skill'>
+                            <p style={{margin:'0px'}}>React JS</p>
+                            <img className='skill-icon' src={`${ReactJS}`} />
+                        </div>
+                        <div className='indicator' style={{width: '50%'}}/>
+                    </div>
+                    <div className='skill-container'>
+                        <div className='skill'>
+                            <p style={{margin:'0px'}}>React Redux</p>
+                            <img className='skill-icon' src={`${ReactRedux}`} />
+                        </div>
+                        <div className='indicator' style={{width: '50%'}}/>
+                    </div>
+                    <div className='skill-container'>
+                        <div className='skill'>
+                            <p style={{margin:'0px'}}>Vue JS</p>
+                            <img className='skill-icon' src={`${VueJS}`} />
+                        </div>
+                        <div className='indicator' style={{width: '20%'}}/>
+                    </div>
                     <h4>PREPROCESSORS</h4>
-                    <p>SCSS</p>
-                    <div className='indicator' style={{width: '50%'}}/>
+                    <div className='skill-container'>
+                        <div className='skill'>
+                            <p style={{margin:'0px'}}>SCSS</p>
+                            <img className='skill-icon' src={`${SCSS}`} />
+                        </div>
+                        <div className='indicator' style={{width: '50%'}}/>
+                    </div>
                     <h3>BACKEND</h3>
                     <h4>FRAMEWORKS</h4>
-                    <p>NodeJS + ExpressJS</p>
-                    <div className='indicator' style={{width: '40%'}}/>
+                    <div className='skill-container'>
+                        <div className='skill'>
+                            <p style={{margin:'0px'}}>NodeJS + ExpressJS</p>
+                            <img className='skill-icon' src={`${NodeJS}`} />
+                        </div>
+                        <div className='indicator' style={{width: '40%'}}/>
+                    </div>
                     <h4>DATABASES</h4>
-                    <p>MongoDB</p>
-                    <div className='indicator' style={{width: '30%'}}/>
+                    <div className='skill-container'>
+                        <div className='skill'>
+                            <p style={{margin:'0px'}}>MongoDB</p>
+                            <img className='skill-icon' src={`${MongoDB}`} />
+                        </div>
+                        <div className='indicator' style={{width: '30%'}}/>
+                    </div>
                     <h3>DESIGN</h3>
-                    <p>PhotoShop</p>
-                    <div className='indicator' style={{width: '10%'}}/>
+                    <div className='skill-container'>
+                        <div className='skill'>
+                            <p style={{margin:'0px'}}>PhotoShop</p>
+                            <img className='skill-icon' src={`${PhotoShop}`} />
+                        </div>
+                        <div className='indicator' style={{width: '10%'}}/>
+                    </div>
                     <h3>LANGUAGES</h3>
-                    <p>Python</p>
-                    <div className='indicator' style={{width: '20%'}}/>
-                    <p>JavaScript</p>
-                    <div className='indicator' style={{width: '50%'}}/>
-                    <p>Java</p>
-                    <div className='indicator' style={{width: '10%'}}/>
+                    <div className='skill-container'>
+                        <div className='skill'>
+                            <p style={{margin:'0px'}}>Python</p>
+                            <img className='skill-icon' src={`${Python}`} />
+                        </div>
+                        <div className='indicator' style={{width: '20%'}}/>
+                    </div>
+                    <div className='skill-container'>
+                        <div className='skill'>
+                            <p style={{margin:'0px'}}>JavaScript</p>
+                            <img className='skill-icon' src={`${JavaScript}`} />
+                        </div>
+                        <div className='indicator' style={{width: '50%'}}/>
+                    </div>
+                    <div className='skill-container'>
+                        <div className='skill'>
+                            <p style={{margin:'0px'}}>Java</p>
+                            <img className='skill-icon' src={`${Java}`} />
+                        </div>
+                        <div className='indicator' style={{width: '10%'}}/>
+                    </div>
                 </div>
             </div>
         )

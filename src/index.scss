@@ -36,6 +36,13 @@ body {
       height: 25px;
     }
   }
+  
+  .modal {
+    embed {
+      width: 80%;
+      height: 80%;
+    }
+  }
 
   #home {
     margin: auto;
@@ -73,15 +80,15 @@ body {
       }
 
       .indicator {
-        margin: 0 20px 0 auto;
+        margin: 0 0 0 auto;
       }
 
-      p, h3, h4 {
+      h3, h4 {
         margin-right: 20px;
       }
 
-      p {
-        margin: 20px 20px 5px 0;
+      .skill-container {
+        padding-right: 20px;
       }
     }
   }
@@ -164,6 +171,14 @@ body {
     }
   }
 
+  .modal {
+    embed {
+      width: 50%;
+      height: 80%;
+    }
+  }
+
+
   #home {
     height: 100vh;
     padding: 180px 60px 30px 30px;
@@ -209,15 +224,15 @@ body {
       }
 
       .indicator {
-        margin: 0 40px 0 auto;
+        margin: 0 0 0 auto;
       }
 
-      p, h3, h4 {
+      h3, h4 {
         margin-right: 40px;
       }
 
-      p {
-        margin: 20px 40px 5px 0;
+      .skill-container {
+        padding-right: 40px;
       }
     }
   }
@@ -299,6 +314,13 @@ body {
     }
   }
 
+  .modal {
+    embed {
+      width: 80%;
+      height: 80%;
+    }
+  }
+
   #home {
     height: 100vh;
     padding: 180px 60px 30px 30px;
@@ -344,15 +366,15 @@ body {
       }
 
       .indicator {
-        margin: 0 40px 0 auto;
+        margin: 0 0 0 auto;
       }
 
-      p, h3, h4 {
+      h3, h4 {
         margin-right: 40px;
       }
 
-      p {
-        margin: 20px 40px 5px 0;
+      .skill-container {
+        padding-right: 40px;
       }
     }
   }
