@@ -69,12 +69,17 @@ class QuotesProject extends React.Component {
                         <div className='technologies'>
                             <p className='tech'>ReactJS</p>
                             <p className='tech'>SCSS</p>
+                            <p className='tech'>FLUTTER</p>
+                            <p className='tech'>DART</p>
                         </div>
                     </div>
                 </div>
                 <div className='project-links'>
                     <a href='https://github.com/jellychn/quotes/tree/master' target='_blank'>
-                        <p>GIT</p>
+                        <p>WEB GIT</p>
+                    </a>
+                    <a href='https://github.com/jellychn/quotes-app' target='_blank'>
+                        <p>APP GIT</p>
                     </a>
                     <p>.</p>
                     <a href='https://jellychn.github.io/quotes/' target='_blank'>
