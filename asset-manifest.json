@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.24096932.chunk.css",
-    "main.js": "/portfolio/static/js/main.0fb99ad8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0fb99ad8.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.aaee6bd2.chunk.css",
+    "main.js": "/portfolio/static/js/main.ffdb06ae.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ffdb06ae.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.a26c8ea1.chunk.js": "/portfolio/static/js/2.a26c8ea1.chunk.js",
-    "static/js/2.a26c8ea1.chunk.js.map": "/portfolio/static/js/2.a26c8ea1.chunk.js.map",
+    "static/js/2.d5651d31.chunk.js": "/portfolio/static/js/2.d5651d31.chunk.js",
+    "static/js/2.d5651d31.chunk.js.map": "/portfolio/static/js/2.d5651d31.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.551c9d205e459274811851c271a05420.js": "/portfolio/precache-manifest.551c9d205e459274811851c271a05420.js",
+    "precache-manifest.b31b04714c190464b9bb03a2e01086ca.js": "/portfolio/precache-manifest.b31b04714c190464b9bb03a2e01086ca.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.24096932.chunk.css.map": "/portfolio/static/css/main.24096932.chunk.css.map",
-    "static/js/2.a26c8ea1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a26c8ea1.chunk.js.LICENSE.txt",
+    "static/css/main.aaee6bd2.chunk.css.map": "/portfolio/static/css/main.aaee6bd2.chunk.css.map",
+    "static/js/2.d5651d31.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d5651d31.chunk.js.LICENSE.txt",
     "static/media/cart.JPG": "/portfolio/static/media/cart.0f4729a2.JPG",
     "static/media/cscv.PDF": "/portfolio/static/media/cscv.259b4177.PDF",
     "static/media/cv.svg": "/portfolio/static/media/cv.f5074973.svg",
+    "static/media/dart.svg": "/portfolio/static/media/dart.63a1fa89.svg",
     "static/media/display-page.JPG": "/portfolio/static/media/display-page.c18cf23c.JPG",
+    "static/media/flutter.svg": "/portfolio/static/media/flutter.faf8f499.svg",
     "static/media/github.svg": "/portfolio/static/media/github.7705d555.svg",
     "static/media/java.svg": "/portfolio/static/media/java.2cdd0acb.svg",
     "static/media/javascript.svg": "/portfolio/static/media/javascript.891a71b9.svg",
@@ -36,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.a26c8ea1.chunk.js",
-    "static/css/main.24096932.chunk.css",
-    "static/js/main.0fb99ad8.chunk.js"
+    "static/js/2.d5651d31.chunk.js",
+    "static/css/main.aaee6bd2.chunk.css",
+    "static/js/main.ffdb06ae.chunk.js"
   ]
 }
