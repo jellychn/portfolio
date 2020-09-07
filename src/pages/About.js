@@ -2,6 +2,7 @@ import React from 'react';
 import ReactJS from '../assets/icons/react.svg';
 import ReactRedux from '../assets/icons/redux.svg';
 import VueJS from '../assets/icons/vue.svg';
+import Flutter from '../assets/icons/flutter.svg';
 import SCSS from '../assets/icons/sass.svg';
 import NodeJS from '../assets/icons/node.svg';
 import MongoDB from '../assets/icons/mongodb.svg';
@@ -9,6 +10,7 @@ import PhotoShop from '../assets/icons/photoshop.svg';
 import Python from '../assets/icons/python.svg';
 import JavaScript from '../assets/icons/javascript.svg';
 import Java from '../assets/icons/java.svg';
+import Dart from '../assets/icons/dart.svg';
 
 class About extends React.Component {
     render () {
@@ -54,6 +56,13 @@ class About extends React.Component {
                         </div>
                         <div className='indicator' style={{width: '20%'}}/>
                     </div>
+                    <div className='skill-container'>
+                        <div className='skill'>
+                            <p style={{margin:'0px'}}>Flutter</p>
+                            <img className='skill-icon' src={`${Flutter}`} />
+                        </div>
+                        <div className='indicator' style={{width: '20%'}}/>
+                    </div>
                     <h4>PREPROCESSORS</h4>
                     <div className='skill-container'>
                         <div className='skill'>
@@ -93,7 +102,7 @@ class About extends React.Component {
                             <p style={{margin:'0px'}}>Python</p>
                             <img className='skill-icon' src={`${Python}`} />
                         </div>
-                        <div className='indicator' style={{width: '20%'}}/>
+                        <div className='indicator' style={{width: '40%'}}/>
                     </div>
                     <div className='skill-container'>
                         <div className='skill'>
@@ -108,6 +117,13 @@ class About extends React.Component {
                             <img className='skill-icon' src={`${Java}`} />
                         </div>
                         <div className='indicator' style={{width: '10%'}}/>
+                    </div>
+                    <div className='skill-container'>
+                        <div className='skill'>
+                            <p style={{margin:'0px'}}>Dart</p>
+                            <img className='skill-icon' src={`${Dart}`} />
+                        </div>
+                        <div className='indicator' style={{width: '30%'}}/>
                     </div>
                 </div>
             </div>

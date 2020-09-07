@@ -63,14 +63,14 @@ class QuotesProject extends React.Component {
                         <p className='project-status'>COMPLETED</p>
                         <h2>QUOTES PROJECT</h2>
                         <p className='explaination'>
-                            website that displays quotes from the book 366 days with Wisdom by Master Hsing Yun, the website cycles between 366 quotes
+                            website/App that displays quotes from the book 366 days with Wisdom by Master Hsing Yun, the website cycles between 366 quotes
                             changing everyday automaticly based on the date and the quote according to the book.
                         </p>
                         <div className='technologies'>
                             <p className='tech'>ReactJS</p>
                             <p className='tech'>SCSS</p>
-                            <p className='tech'>FLUTTER</p>
-                            <p className='tech'>DART</p>
+                            <p className='tech'>Flutter</p>
+                            <p className='tech'>Dart</p>
                         </div>
                     </div>
                 </div>
