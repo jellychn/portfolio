@@ -12,6 +12,7 @@ import Python from '../assets/icons/python.svg';
 import JavaScript from '../assets/icons/javascript.svg';
 import Java from '../assets/icons/java.svg';
 import Dart from '../assets/icons/dart.svg';
+import Figma from '../assets/icons/figma.svg';
 
 class About extends React.Component {
     render () {
@@ -24,7 +25,7 @@ class About extends React.Component {
                         Hi as seen above my name is Jerry and some of my expertise includes anything from
                         <p className='highlight'>WEB DEVELOPMENT.</p> 
                         to 
-                        <p className='highlight'>DESIGN.</p> 
+                        <p className='highlight'>UX/UI DESIGN + GRAPHIC DESIGN.</p> 
                         to 
                         <p className='highlight'>APP DEVELOPEMNT.</p>
                     </p>
@@ -103,6 +104,13 @@ class About extends React.Component {
                             <img className='skill-icon' src={`${PhotoShop}`} />
                         </div>
                         <div className='indicator' style={{width: '10%'}}/>
+                    </div>
+                    <div className='skill-container'>
+                        <div className='skill'>
+                            <p style={{margin:'0px'}}>Figma</p>
+                            <img className='skill-icon' src={`${Figma}`} />
+                        </div>
+                        <div className='indicator' style={{width: '40%'}}/>
                     </div>
                     <h3>LANGUAGES</h3>
                     <div className='skill-container'>

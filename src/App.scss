@@ -80,8 +80,10 @@ html {
         font-weight: bold;
         padding: 7px 10px;
         background-color: #eee;
+        box-shadow: 0 0 10px #ddd;
         border-radius: 3px;
         color: darkgray;
+        border: 2px solid white;
       }
     }
   }
@@ -355,16 +357,17 @@ html {
     button {
       margin-top: 60px;
       padding: 20px;
-      background-color: #FF5850;
-      color: #eee;
+      background-color: #F8F9FB;
+      box-shadow: 0 0 10px #ddd;
+      border: 2px solid white;
+      color: #1C1B20;
       font-weight: bold;
       border-radius: 5px;
       outline: none;
       cursor: pointer;
-      border: none;
 
       &:hover {
-        background-color: #1C1B20;
+        background-color: #ddd;
       }
     }
   }

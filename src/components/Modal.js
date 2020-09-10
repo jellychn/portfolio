@@ -1,5 +1,5 @@
 import React from 'react';
-import cv from '../assets/cscv.PDF';
+import cv from '../assets/cscv.pdf';
 
 class Modal extends React.Component {
     render () {
