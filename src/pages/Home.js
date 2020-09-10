@@ -5,7 +5,7 @@ class Home extends React.Component {
         return (
             <div id='home'>
                 {/* <div className='shape-left'/> */}
-                <div className='shape-right'/>
+                {/* <div className='shape-right'/> */}
                 <div className='home-info'>
                     <p>HELLO, I'M</p>
                     <h1 className='name'>JERRY CHEN</h1>

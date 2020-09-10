@@ -1,13 +1,13 @@
 import React from 'react';
-import ui_project0 from '../assets/ui-project/display-page.JPG';
-import ui_project1 from '../assets/ui-project/cart.JPG';
-import ui_project2 from '../assets/ui-project/search.JPG';
-import ui_project3 from '../assets/ui-project/mobile-display.JPG'; 
-import ui_project4 from '../assets/ui-project/mobile-form.JPG'; 
+import ui_project0 from '../assets/ui-project/home-page.JPG'; 
+import ui_project1 from '../assets/ui-project/display-page.JPG';
+import ui_project2 from '../assets/ui-project/cart-page.JPG';
+// import ui_project2 from '../assets/ui-project/search.JPG';
+import ui_project3 from '../assets/ui-project/item-page.JPG'; 
 
 class UIProject extends React.Component {
     state = {
-        projectImages: [ui_project0, ui_project1, ui_project2, ui_project3, ui_project4],
+        projectImages: [ui_project0, ui_project1, ui_project2, ui_project3],
         number: 0,
         next: false,
         prev: false,
@@ -73,7 +73,7 @@ class UIProject extends React.Component {
                         <div className='technologies'>
                             <p className='tech'>ReactJS + React Redux</p>
                             <p className='tech'>NodeJS + ExpressJS</p>
-                            <p className='tech'>MongoDB</p>
+                            <p className='tech'>Firebase</p>
                             <p className='tech'>SCSS</p>
                         </div>
                     </div>
@@ -86,7 +86,9 @@ class UIProject extends React.Component {
                         <p>GIT BACKEND</p>
                     </a>
                     <p>.</p>
-                    <p style={{color:'darkgray', cursor:'default'}}>DEMO</p>
+                    <a href='https://uiline.web.app/' target='_blank'>
+                        <p>DEMO</p>
+                    </a>
                 </div>
             </div>
         )

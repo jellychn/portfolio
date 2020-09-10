@@ -6,6 +6,7 @@ import Flutter from '../assets/icons/flutter.svg';
 import SCSS from '../assets/icons/sass.svg';
 import NodeJS from '../assets/icons/node.svg';
 import MongoDB from '../assets/icons/mongodb.svg';
+import Firebase from '../assets/icons/firebase.svg';
 import PhotoShop from '../assets/icons/photoshop.svg';
 import Python from '../assets/icons/python.svg';
 import JavaScript from '../assets/icons/javascript.svg';
@@ -85,6 +86,13 @@ class About extends React.Component {
                         <div className='skill'>
                             <p style={{margin:'0px'}}>MongoDB</p>
                             <img className='skill-icon' src={`${MongoDB}`} />
+                        </div>
+                        <div className='indicator' style={{width: '30%'}}/>
+                    </div>
+                    <div className='skill-container'>
+                        <div className='skill'>
+                            <p style={{margin:'0px'}}>Firebase</p>
+                            <img className='skill-icon' src={`${Firebase}`} />
                         </div>
                         <div className='indicator' style={{width: '30%'}}/>
                     </div>

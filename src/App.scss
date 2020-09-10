@@ -171,7 +171,9 @@ html {
     .indicator {
       height: 30px;
       border-radius: 5px;
-      background-color: #eee;
+      background-color: #F8F9FB;
+      border: 2px solid white;
+      box-shadow: 0 0 10px #ddd;
     }
 
     p, h3, h1, h4 {
@@ -252,7 +254,9 @@ html {
             background-size: contain;
             background-repeat: no-repeat;
             border-radius: 5px;
-            box-shadow: 0 0 10px #eee;
+            background-color: #F8F9FB;
+            border: 2px solid white;
+            box-shadow: 0 0 10px #ddd;
             background-position: center;
           }
         }

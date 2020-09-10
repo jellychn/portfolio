@@ -4,7 +4,7 @@ class Contact extends React.Component {
     render () {
         return (
             <div id='contact'>
-                <div className='shape-right'/>
+                {/* <div className='shape-right'/> */}
                 {/* <div className='shape-left'/> */}
                 <div className='contact-info'>
                     <h1>CONTACT ME.</h1>
