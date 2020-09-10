@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8a072c2e.chunk.css",
-    "main.js": "/portfolio/static/js/main.9d86256b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9d86256b.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.fbbd25a0.chunk.css",
+    "main.js": "/portfolio/static/js/main.98fd624d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.98fd624d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.d5651d31.chunk.js": "/portfolio/static/js/2.d5651d31.chunk.js",
-    "static/js/2.d5651d31.chunk.js.map": "/portfolio/static/js/2.d5651d31.chunk.js.map",
+    "static/js/2.f31d46d7.chunk.js": "/portfolio/static/js/2.f31d46d7.chunk.js",
+    "static/js/2.f31d46d7.chunk.js.map": "/portfolio/static/js/2.f31d46d7.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.caab0bfcb904cc12f87b6120436ce310.js": "/portfolio/precache-manifest.caab0bfcb904cc12f87b6120436ce310.js",
+    "precache-manifest.d7c6956aeb3a740208fed1690549f6e4.js": "/portfolio/precache-manifest.d7c6956aeb3a740208fed1690549f6e4.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.8a072c2e.chunk.css.map": "/portfolio/static/css/main.8a072c2e.chunk.css.map",
-    "static/js/2.d5651d31.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d5651d31.chunk.js.LICENSE.txt",
+    "static/css/main.fbbd25a0.chunk.css.map": "/portfolio/static/css/main.fbbd25a0.chunk.css.map",
+    "static/js/2.f31d46d7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f31d46d7.chunk.js.LICENSE.txt",
     "static/media/cart-page.JPG": "/portfolio/static/media/cart-page.a8ee7bea.JPG",
-    "static/media/cscv.PDF": "/portfolio/static/media/cscv.259b4177.PDF",
+    "static/media/cscv.pdf": "/portfolio/static/media/cscv.21e9ae8e.pdf",
     "static/media/cv.svg": "/portfolio/static/media/cv.f5074973.svg",
     "static/media/dart.svg": "/portfolio/static/media/dart.63a1fa89.svg",
     "static/media/display-page.JPG": "/portfolio/static/media/display-page.8e5d8cd9.JPG",
+    "static/media/figma.svg": "/portfolio/static/media/figma.80505242.svg",
     "static/media/firebase.svg": "/portfolio/static/media/firebase.1a1dfb3f.svg",
     "static/media/flutter.svg": "/portfolio/static/media/flutter.faf8f499.svg",
     "static/media/github.svg": "/portfolio/static/media/github.7705d555.svg",
@@ -38,8 +39,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.d5651d31.chunk.js",
-    "static/css/main.8a072c2e.chunk.css",
-    "static/js/main.9d86256b.chunk.js"
+    "static/js/2.f31d46d7.chunk.js",
+    "static/css/main.fbbd25a0.chunk.css",
+    "static/js/main.98fd624d.chunk.js"
   ]
 }
