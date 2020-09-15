@@ -2,12 +2,12 @@ import React from 'react';
 import ui_project0 from '../assets/ui-project/home-page.JPG'; 
 import ui_project1 from '../assets/ui-project/display-page.JPG';
 import ui_project2 from '../assets/ui-project/cart-page.JPG';
-// import ui_project2 from '../assets/ui-project/search.JPG';
-import ui_project3 from '../assets/ui-project/item-page.JPG'; 
+import ui_project3 from '../assets/ui-project/search.JPG';
+import ui_project4 from '../assets/ui-project/item-page.JPG'; 
 
 class UIProject extends React.Component {
     state = {
-        projectImages: [ui_project0, ui_project1, ui_project2, ui_project3],
+        projectImages: [ui_project0, ui_project1, ui_project2, ui_project3, ui_project4],
         number: 0,
         next: false,
         prev: false,
