@@ -1,13 +1,12 @@
 import React from 'react';
-import ui_project0 from '../assets/ui-project/home-page.JPG'; 
-import ui_project1 from '../assets/ui-project/display-page.JPG';
-import ui_project2 from '../assets/ui-project/cart-page.JPG';
-import ui_project3 from '../assets/ui-project/search.JPG';
-import ui_project4 from '../assets/ui-project/item-page.JPG'; 
+import ui_project0 from '../assets/sylo-project/light-display.JPG'; 
+import ui_project1 from '../assets/sylo-project/dark-display.JPG';
+import ui_project2 from '../assets/sylo-project/light-view.JPG';
+import ui_project3 from '../assets/sylo-project/dark-view.JPG';
 
-class UIProject extends React.Component {
+class SyloProject extends React.Component {
     state = {
-        projectImages: [ui_project0, ui_project1, ui_project2, ui_project3, ui_project4],
+        projectImages: [ui_project0, ui_project1, ui_project2, ui_project3],
         number: 0,
         next: false,
         prev: false,
@@ -64,30 +63,20 @@ class UIProject extends React.Component {
                         <div className='img-container' style={{backgroundImage: `url(${this.state.projectImages[this.state.number]})`}}/>
                     </div>
                     <div className='right'>
-                        <p className='project-status'>IN DEVELOPMENT</p>
-                        <h2>UI PROJECT</h2>
+                        <p className='project-status'>COMPLETED</p>
+                        <h2>SYLO PROJECT</h2>
                         <p className='explaination'>
-                            E-commerse web app for selling products online including backend api featching,
-                            user login + authentication, backend product search querying and payment system.
+                            Cryptocurrency app tracker
                         </p>
                         <div className='technologies'>
-                            <p className='tech'>ReactJS + React Redux</p>
-                            <p className='tech'>NodeJS + ExpressJS</p>
-                            <p className='tech'>Firebase</p>
-                            <p className='tech'>SCSS</p>
+                            <p className='tech'>React Native</p>
+                            <p className='tech'>TypeScript</p>
                         </div>
                     </div>
                 </div>
                 <div className='project-links'>
-                    <a href='https://github.com/jellychn/ui-frontend' target='_blank'>
-                        <p>GIT FRONTEND</p>
-                    </a>
-                    <a href='https://github.com/jellychn/ui-api' target='_blank'>
-                        <p>GIT BACKEND</p>
-                    </a>
-                    <p>.</p>
-                    <a href='https://uiline.web.app/' target='_blank'>
-                        <p>DEMO</p>
+                    <a href='https://github.com/jellychn/sylo-test' target='_blank'>
+                        <p>GIT</p>
                     </a>
                 </div>
             </div>
@@ -95,4 +84,4 @@ class UIProject extends React.Component {
     }
 };
 
-export default UIProject;
+export default SyloProject;

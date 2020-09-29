@@ -10,9 +10,11 @@ import Firebase from '../assets/icons/firebase.svg';
 import PhotoShop from '../assets/icons/photoshop.svg';
 import Python from '../assets/icons/python.svg';
 import JavaScript from '../assets/icons/javascript.svg';
+import TypeScript from '../assets/icons/typescript.svg';
 import Java from '../assets/icons/java.svg';
 import Dart from '../assets/icons/dart.svg';
 import Figma from '../assets/icons/figma.svg';
+import Sketch from '../assets/icons/sketch.svg';
 
 class About extends React.Component {
     render () {
@@ -112,6 +114,13 @@ class About extends React.Component {
                         </div>
                         <div className='indicator' style={{width: '40%'}}/>
                     </div>
+                    <div className='skill-container'>
+                        <div className='skill'>
+                            <p style={{margin:'0px'}}>Sketch</p>
+                            <img className='skill-icon' src={`${Sketch}`} />
+                        </div>
+                        <div className='indicator' style={{width: '50%'}}/>
+                    </div>
                     <h3>LANGUAGES</h3>
                     <div className='skill-container'>
                         <div className='skill'>
@@ -126,6 +135,13 @@ class About extends React.Component {
                             <img className='skill-icon' src={`${JavaScript}`} />
                         </div>
                         <div className='indicator' style={{width: '50%'}}/>
+                    </div>
+                    <div className='skill-container'>
+                        <div className='skill'>
+                            <p style={{margin:'0px'}}>TypeScript</p>
+                            <img className='skill-icon' src={`${TypeScript}`} />
+                        </div>
+                        <div className='indicator' style={{width: '40%'}}/>
                     </div>
                     <div className='skill-container'>
                         <div className='skill'>

@@ -11,8 +11,8 @@ class Home extends React.Component {
                     <h1 className='name'>JERRY CHEN</h1>
                     <h1>AND I ENJOY ANYTHING WEB.</h1>
                     <p className='bio'>
-                        I'M A RECENT GRADUATE COMPUTER SCIENCE STUDENT WHO 
-                        ENJOYS ANYTHING INVOLVING PROGRAMMING AND DESIGN.
+                        I'M A COMPUTER SCIENCE GRADUATE WHO 
+                        ENJOYS PROGRAMMING AND DESIGN.
                     </p>
                 </div>
             </div>
