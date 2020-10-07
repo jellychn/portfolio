@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f4b63ac8d55b3d3e535526f817751e8",
+    "revision": "5526909176e648687c47447c7cc57bcd",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "d16895ea4b188e73f35c",
+    "revision": "9c619315229acdfbf633",
     "url": "/portfolio/static/css/main.a5c1d3f4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.79e49c29.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d16895ea4b188e73f35c",
-    "url": "/portfolio/static/js/main.e846c63c.chunk.js"
+    "revision": "9c619315229acdfbf633",
+    "url": "/portfolio/static/js/main.e4dc60d1.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/javascript.891a71b9.svg"
   },
   {
-    "revision": "a42edb9010ec28ddcb829a294811b6f0",
-    "url": "/portfolio/static/media/keyboard.a42edb90.JPG"
+    "revision": "e4a885c7480caaa1ee0d95bee1a3742d",
+    "url": "/portfolio/static/media/keyboard.e4a885c7.JPG"
   },
   {
     "revision": "6321ce932388ba2d3e95ef4a36ca097a",
