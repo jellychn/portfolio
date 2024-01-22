@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1e716ce4.css",
-    "main.js": "/portfolio/static/js/main.d2273879.js",
+    "main.css": "/portfolio/static/css/main.b93c4d26.css",
+    "main.js": "/portfolio/static/js/main.7c74a9bc.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/tricor.png": "/portfolio/static/media/tricor.8cc6c437d471f7163545.png",
     "static/media/design.png": "/portfolio/static/media/design.35db55b8b09beefb492e.png",
     "static/media/badminton.png": "/portfolio/static/media/badminton.585eb46a33d822f5b513.png",
     "static/media/gym.png": "/portfolio/static/media/gym.ad1fa8b3900b712c018a.png",
+    "static/media/hand.png": "/portfolio/static/media/hand.6f142e0ab17c2078bb46.png",
     "static/media/boxing.png": "/portfolio/static/media/boxing.7b0248edc5643f457752.png",
     "static/media/software.png": "/portfolio/static/media/software.80561bfdafc34fb7d09f.png",
     "static/media/running.png": "/portfolio/static/media/running.602b5a7874a33a84fa3e.png",
@@ -17,12 +18,12 @@
     "index.html": "/portfolio/index.html",
     "static/media/copyright.svg": "/portfolio/static/media/copyright.9882f6d35851de0ba4329776c5a868ab.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.13eec78f4b3a725b5eff6b0ade99eec3.svg",
-    "main.1e716ce4.css.map": "/portfolio/static/css/main.1e716ce4.css.map",
-    "main.d2273879.js.map": "/portfolio/static/js/main.d2273879.js.map",
+    "main.b93c4d26.css.map": "/portfolio/static/css/main.b93c4d26.css.map",
+    "main.7c74a9bc.js.map": "/portfolio/static/js/main.7c74a9bc.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e716ce4.css",
-    "static/js/main.d2273879.js"
+    "static/css/main.b93c4d26.css",
+    "static/js/main.7c74a9bc.js"
   ]
 }
