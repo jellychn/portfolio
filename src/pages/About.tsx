@@ -26,10 +26,8 @@ export default function About(): JSX.Element {
 
     if (hr?.offsetTop && position > hr?.offsetTop) {
       scroll?.classList.add("hide");
-      scroll?.classList.remove("fadeIn");
     } else {
       scroll?.classList.remove("hide");
-      scroll?.classList.add("fadeIn");
     }
 };
 
