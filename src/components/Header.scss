@@ -1,23 +1,25 @@
 .header {
     display: flex;
     margin-top: 56px;
-    justify-content: end;
     position: absolute;
-    right: 0;
     z-index: 10;
     width: 100%;
-
-    .logo {
-        width: 64x;
-        height: 64px;
+    left: 0;
+    
+    .navigation {
+        display: flex;
+        width: 1000px;
         margin: auto;
+        justify-content: end;
+        position: relative;
     }
 
     p {
-        font-weight: 600;
+        font-weight: 500;
         font-size: 16px;
         margin-left: 32px;
         transition: color .1s ease-in;
+        position: relative;
     }
 
     .on {
@@ -26,7 +28,6 @@
     }
 
     .off {
-        color: #7A8B97;
         cursor: pointer;
 
         &:hover {

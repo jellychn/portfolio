@@ -100,14 +100,14 @@ export default function About(): JSX.Element {
               <span className="offset offset-even">Jerry</span>
             </span>
           </h2>
-          <div className="quote fadeIn">
-            <span>
+          <div className="quote">
+            <span className="fadeIn">
                 Technical, <br />
                 with a sprinkle of <br />
                 <span className="elegance">Elegance</span>.
-              </span>
-            <hr id="hr" />
-            <div className="socials">
+            </span>
+            <hr id="hr" className="line" />
+            <div className="socials fadeIn">
               <a href="https://www.linkedin.com/in/jerry-chen-3235171b4/" target="_blank">
                 <img className="social" src={linkedin} alt="linkedin" />
               </a>

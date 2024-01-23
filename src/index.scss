@@ -3,6 +3,7 @@ body {
   font-family: "Figtree", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 .divider {
@@ -17,6 +18,7 @@ body {
 .container {
   position: relative;
   width: 1000px;
+  padding: 0 64px;
   margin: auto;
 }
 
@@ -31,7 +33,7 @@ body {
   opacity: 0;
   animation-name: fadeIn;
   animation-duration: 0.3s;
-  animation-delay: 1s;
+  animation-delay: 1.3s;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
 }
@@ -125,7 +127,7 @@ body {
   }
 }
 
-//
+// oscillate reverse
 
 .oscillate-reverse {
   opacity: 1;
@@ -146,3 +148,23 @@ body {
     opacity: 0;
   }
 }
+
+// line
+.line {
+  width: 0%;
+  animation-name: line;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes line {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
