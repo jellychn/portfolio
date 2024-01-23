@@ -10,8 +10,7 @@ export default function Design(): JSX.Element {
                 <img className="emoji offset offset-even" src={design} />
             </div>
             <div className="fadeIn">
-                <Project />
-                <Project />
+                <h1>COMMING SOON...</h1>
             </div>
         </div>
     );
