@@ -1,0 +1,71 @@
+.project {
+    display: flex;
+    margin: 123px 0 0 0;
+
+    .info {
+        flex: 1;
+        margin: 0 150px 0 0;
+
+        h2 {
+            font-weight: 500;
+            font-size: 38px;
+            bottom: 0 0 44px 0;
+        }
+
+        .pill-container {
+            width: 100%;
+            display: block;
+            margin-bottom: 28px;
+            max-width: 300px;
+
+            &::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .pill {
+                margin: 8px 8px 0 0;
+                float: left;
+                font-size: 14px;
+                padding: 3px 5px;
+                border-radius: 5px;
+                background-color: #f2f6f7;
+                color: #7A8B97;
+            }
+        }
+
+        p {
+            margin: 0 0 38px 0;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: black;
+            border: none;
+            color: white;
+            font-weight: 600;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: box-shadow 0.3s ease;
+            font-family: 'Figtree', sans-serif;
+            font-size: 18px;
+
+            &:hover {
+                box-shadow: 8px 8px 0 1px #ddd;
+            }
+        }
+    }
+
+    .display {
+        flex: 1;
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px 5px rgba(0,0,0, 0.25);
+        }
+    }
+}

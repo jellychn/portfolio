@@ -1,0 +1,140 @@
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    .content {
+        h2 {
+            font-size: 96px;
+            margin-top: 0;
+        }
+
+        .hand {
+            position: relative;
+            top: 10px;
+            width: 64px;
+            height: 64px;
+        }
+
+        .hi {
+            display: block;
+        }
+
+        .quote {
+            font-size: 40px;
+
+            .elegance {
+                color: #EDAAAF;
+                font-style: italic;
+            }
+
+            hr {
+                margin-top: 32px;
+                margin-bottom: 10px;
+                border-top: 1px solid #E6E6E6;
+            }
+        }
+
+        .socials {
+            &:hover {
+                .social {
+                    opacity: 0.3;
+                }
+            }
+
+            .social {
+                margin-right: 10px;
+                width: 24px;
+                height: 24px;
+                cursor: pointer;
+                transition: opacity 0.3s ease-in;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .scroll {
+        position: absolute;
+        background-image: url("../assets/scroll.svg");
+        width: 36px;
+        height: 36px;
+        bottom: 88px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #E6E6E6;
+        border-radius: 100%;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in;
+
+        &:hover {
+            background-color: #000000;
+        }
+    }
+}
+
+.info {
+    padding-top: 124px;
+
+    .section {
+        display: flex;
+        margin-bottom: 96px;
+
+        .content-title {
+            width: 30%;
+
+            p {
+                font-size: 24px;
+                margin: 0;
+                color: #7A8B97;
+            }
+        }
+
+        .content {
+            flex: 1;
+
+            p {
+                font-size: 18px;
+                margin: 0;
+                font-weight: 600;
+            }
+
+            .title {
+                font-size: 16px;
+            }
+
+            .sub-title {
+                font-size: 16px;
+                color: #7A8B97;
+            }
+
+            hr {
+                margin-top: 32px;
+                margin-bottom: 32px;
+                border-top: 1px solid #E6E6E6;
+            }
+
+            img {
+                width: 38px;
+                height: 38px;
+                margin-right: 32px;
+            }
+
+            .rad {
+                width: 32px;
+                height: 32px;
+                margin: auto 0 auto 10px;
+                position: relative;
+                top: 5px;
+            }
+
+            span {
+                color: #EDAAAF;
+            }
+        }
+    }
+}
