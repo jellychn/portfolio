@@ -84,7 +84,7 @@ export default function About(): JSX.Element {
     if (scrollElement) {
       scrollElement.style.transition = 'all 0.3s ease-out';
       scrollElement.style.left = '50%';
-      scrollElement.style.bottom = '88px';
+      scrollElement.style.bottom = '154px';
       scrollElement.style.border = "none";
     }
   };
@@ -123,7 +123,7 @@ export default function About(): JSX.Element {
           className="scroll oscillate" 
           onClick={scrollToView}
           style={{
-            bottom: `calc(88px - ${scrollDivPosition.y}px)`,
+            bottom: `calc(154px - ${scrollDivPosition.y}px)`,
             left: `calc(50% + ${scrollDivPosition.x}px)`,
             transition: 'all 0.1s ease-out',
           }}

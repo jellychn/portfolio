@@ -2,10 +2,11 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     position: relative;
 
     .content {
+        padding-top: 30%;
+
         h2 {
             font-size: 96px;
             margin-top: 0;
@@ -62,7 +63,6 @@
         position: absolute;
         width: 52px;
         height: 52px;
-        bottom: 88px;
         left: 50%;
         transform: translateX(-50%);
         background-color: #E6E6E6;
