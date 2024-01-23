@@ -60,9 +60,8 @@
 
     .scroll {
         position: absolute;
-        background-image: url("../assets/scroll.svg");
-        width: 36px;
-        height: 36px;
+        width: 52px;
+        height: 52px;
         bottom: 88px;
         left: 50%;
         transform: translateX(-50%);
@@ -74,10 +73,19 @@
         &:hover {
             background-color: #000000;
         }
+
+        img {
+            position: absolute;
+            width: 26px;
+            height: 26px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
     }
 }
 
-.info {
+.about-info {
     padding-top: 124px;
 
     .section {

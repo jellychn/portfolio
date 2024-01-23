@@ -1,4 +1,5 @@
 import "./About.scss";
+import { useEffect, useRef, useState } from "react";
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
 
@@ -8,7 +9,7 @@ import boxing from "../assets/boxing.png";
 import gym from "../assets/gym.png";
 import badmintion from "../assets/badminton.png";
 import running from "../assets/running.png";
-import { useEffect } from "react";
+import scroll from "../assets/scroll.svg";
 
 export default function About(): JSX.Element {
   useEffect(() => {
@@ -25,16 +26,67 @@ export default function About(): JSX.Element {
     const scroll = document.getElementById("scroll");
 
     if (hr?.offsetTop && position > hr?.offsetTop) {
-      scroll?.classList.add("hide");
+      scroll?.classList.remove("oscillate");
+      scroll?.classList.add("oscillate-reverse");
     } else {
-      scroll?.classList.remove("hide");
+      scroll?.classList.remove("oscillate-reverse");
+      scroll?.classList.add("oscillate");
     }
 };
 
   const scrollToView = (): void => {
     const el = document.getElementById("info");
-    console.log(el);
     el?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [scrollDivPosition, setScrollDivPosition] = useState({ x: 0, y: 0 });
+
+  useEffect(() => {
+    const divElement = scrollRef.current;
+    if (divElement) {
+      divElement.addEventListener('mousemove', handleMouseMove);
+      divElement.addEventListener('mouseleave', handleMouseLeave);
+      divElement.addEventListener('mouseenter', handleMouseEnter);
+
+      return () => {
+        divElement.removeEventListener('mousemove', handleMouseMove);
+        divElement.removeEventListener('mouseleave', handleMouseLeave);
+        divElement.removeEventListener('mouseenter', handleMouseEnter);
+      };
+    }
+  }, []);
+
+  const handleMouseMove = (event: any) => {
+    if (scrollRef.current) {
+      const divRect = scrollRef.current.getBoundingClientRect();
+      const mouseX = event.clientX - divRect.left - divRect.width / 2;
+      const mouseY = event.clientY - divRect.top - divRect.height / 2;
+
+      setScrollDivPosition({
+        x: mouseX,
+        y: mouseY,
+      });
+    }
+  };
+
+  const handleMouseEnter = () => {
+    const scrollElement = document.getElementById("scroll");
+    if (scrollElement) {
+      scrollElement.style.border = "10px solid transparent";
+    }
+  }
+
+  const handleMouseLeave = () => {
+    setScrollDivPosition({ x: 0, y: 0 });
+    const scrollElement = document.getElementById("scroll");
+  
+    if (scrollElement) {
+      scrollElement.style.transition = 'all 0.3s ease-out';
+      scrollElement.style.left = '50%';
+      scrollElement.style.bottom = '88px';
+      scrollElement.style.border = "none";
+    }
   };
 
   return (
@@ -65,9 +117,28 @@ export default function About(): JSX.Element {
             </div>
           </div>
         </div>
-        <div id="scroll" className="scroll oscillate" onClick={scrollToView} />
+        <div
+          ref={scrollRef} 
+          id="scroll" 
+          className="scroll oscillate" 
+          onClick={scrollToView}
+          style={{
+            bottom: `calc(88px - ${scrollDivPosition.y}px)`,
+            left: `calc(50% + ${scrollDivPosition.x}px)`,
+            transition: 'all 0.1s ease-out',
+          }}
+        >
+          <img 
+            src={scroll} 
+            style={{
+              top: `calc(50% + ${scrollDivPosition.y / 5}px)`,
+              left: `calc(50% + ${scrollDivPosition.x / 5}px)`,
+              transition: 'all 0.1s ease-out',
+            }}
+          />
+        </div>
       </div>
-      <div id="info" className="info fadeIn">
+      <div id="info" className="about-info fadeIn">
         <div className="section">
           <div className="content-title">
             <p>MY STORY</p>
