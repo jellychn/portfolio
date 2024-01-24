@@ -30,7 +30,7 @@ export default function About(): JSX.Element {
             onClick={() => navigate(nav.url)}
           >
             {nav.name}
-            {location.pathname === nav.url && <span>.</span>}
+            <span className={location.pathname === nav.url ? "show" : "hide"}>.</span>
           </p>
         </div>
       ))}
