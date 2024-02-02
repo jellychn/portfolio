@@ -4,6 +4,8 @@ import Project from "../components/Project";
 
 import mbti from "../assets/design/MBTI/bg.png";
 import agency from "../assets/design/agency/bg.png";
+import crypto from "../assets/design/crypto/bg.jpg";
+import commingsoon from "../assets/coming-soon.png";
 import { Type } from "../type/types";
 
 export default function Design(): JSX.Element {
@@ -17,6 +19,7 @@ export default function Design(): JSX.Element {
       buttonLabel: "Case Study",
       url: "/design/MBTI",
       img: mbti,
+      disabled: false
     },
     {
       name: "Design Agency",
@@ -27,6 +30,18 @@ export default function Design(): JSX.Element {
       buttonLabel: "Case Study",
       url: "/design/Agency",
       img: agency,
+      disabled: false
+    },
+    {
+      name: "Crypto Dashboard",
+      type: Type.Design,
+      pills: ["UX", "UI", "Desktop", "App"],
+      description:
+        "Coming Soon...",
+      buttonLabel: "Case Study",
+      url: "/",
+      img: commingsoon,
+      disabled: true
     }
   ];
 

@@ -32,6 +32,11 @@ body {
   opacity: 1;
 }
 
+.breadcrum {
+  margin-bottom: 64px;
+  color: #B4BFCA;
+}
+
 // -- Responsiveness
 .tight {
   width: 1000px;
@@ -43,10 +48,6 @@ body {
   margin: 0 auto;
 }
 
-.img-max {
-  width: 100%;
-  margin: 124px 0;
-}
 
 // -- Animation --
 

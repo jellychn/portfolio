@@ -26,6 +26,7 @@ export default function Software(): JSX.Element {
       buttonLabel: "View",
       url: "https://www.tricorglobal.com/",
       img: tricor,
+      disabled: false
     },
     {
       name: "LawVu",
@@ -36,6 +37,7 @@ export default function Software(): JSX.Element {
       buttonLabel: "View",
       url: "https://lawvu.com/",
       img: lawvu,
+      disabled: false
     },
     {
       name: "CanIT Limited",
@@ -46,6 +48,7 @@ export default function Software(): JSX.Element {
       buttonLabel: "View",
       url: "https://canit.co.nz/",
       img: canit,
+      disabled: false
     },
   ];
 

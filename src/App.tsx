@@ -1,3 +1,5 @@
+import "./App.scss";
+
 import React, { createContext } from "react";
 import ReactDOM from "react-dom";
 import { HashRouter, Routes, Route } from "react-router-dom";

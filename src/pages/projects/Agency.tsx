@@ -1,4 +1,3 @@
-import "./Agency.scss";
 import { useNavigate } from "react-router-dom";
 
 import bg from "../../assets/design/agency/bg.png";
@@ -22,10 +21,11 @@ import highfi from "../../assets/design/agency/high-fi.png";
 export default function MBTI(): JSX.Element {
   const navigate = useNavigate();
   return (
-    <div className="agency">
+    <div className="casestudy">
       <div className="tight">
         <div className="offset offset-odd">
-            <h4>UX . UI . Desktop</h4>
+            <p className="breadcrum">/ Design / Design Agency</p>
+            <h3 className="highlight-dark-grey">UX . UI . Desktop</h3>
             <h1 className="head-text">Design Agency</h1>
         </div>
         <img className="bg fadeIn" src={bg} alt="bg" />
@@ -169,7 +169,7 @@ export default function MBTI(): JSX.Element {
         <div className="tight">
           <h3 className="highlight-dark-grey">FLOW</h3>
           <h1>Site Map</h1>
-          <img className="img-max" src={flow} alt="flow" />
+          <img className="image" src={flow} alt="flow" />
         </div>
       </div>
 
@@ -177,7 +177,7 @@ export default function MBTI(): JSX.Element {
         <div className="tight">
           <h3 className="highlight-dark-grey">INTERFACE DESIGN</h3>
           <h1>Low-fidelity</h1>
-          <img className="img-max" src={lowfi} alt="lowfi" />
+          <img className="image" src={lowfi} alt="lowfi" />
         </div>
       </div>
 
@@ -234,7 +234,7 @@ export default function MBTI(): JSX.Element {
             </div>
           </div>
           <div className="tight">
-            <img className="img-max" src={highfi} alt="highfi" />
+            <img className="image" src={highfi} alt="highfi" />
           </div>
         </div>
       </div>
@@ -245,7 +245,7 @@ export default function MBTI(): JSX.Element {
             onClick={() => navigate("/design")}
             className="align-center doodle back"
           >
-            BACK
+            View More Case Studies
           </button>
         </div>
       </div>

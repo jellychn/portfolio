@@ -173,7 +173,7 @@ export default function About(): JSX.Element {
             <p className="title">University of Canterbury</p>
             <p className="sub-title">Christchurch, NZ</p>
             <br />
-            <p className="sub-title">BA, Computer Science</p>
+            <p className="sub-title">BS, Computer Science</p>
           </div>
         </div>
         <div className="section">
