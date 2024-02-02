@@ -114,20 +114,20 @@ export default function Nav(): JSX.Element {
 
   const open = (): void => {
     setShowMenu(true);
+    console.log("hi")
 
-    const menuContainer = document.getElementById("menu-container");
-    if (menuContainer) {
-      menuContainer.style.display = "none";
-    }
+
+    setTimeout(() => {
+      const menuNav = document.getElementById("menu-navigation");
+      menuNav?.classList.add("show-menu-nav");
+    }, 100);
   };
 
   const close = (): void => {
     setShowMenu(false);
 
-    const menuContainer = document.getElementById("menu-container");
-    if (menuContainer) {
-      menuContainer.style.display = "block";
-    }
+    const menuNav = document.getElementById("menu-navigation");
+    menuNav?.classList.remove("show-menu-nav");
   };
 
   return (
@@ -159,7 +159,7 @@ export default function Nav(): JSX.Element {
 
       {showMenu && (
         <div id="backdrop" onClick={close}>
-          <div className="menu-navigation">
+          <div id="menu-navigation">
             {navigation.map((nav) => (
               <div>
                 <h1
