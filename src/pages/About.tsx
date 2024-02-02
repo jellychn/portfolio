@@ -90,7 +90,7 @@ export default function About(): JSX.Element {
   };
 
   return (
-    <div>
+    <div className="tight">
       <div className="main">
         <div className="content">
           <h2 className="hi">
@@ -280,16 +280,34 @@ export default function About(): JSX.Element {
           </div>
           <div className="content">
             <div>
-              <p className="title">UI</p>
+              <p className="title">UX</p>
               <p className="title">
                 <br />
                 <span className="sub-title">User Journey maps</span>
+                <br/>
+                <br/>
+                <span className="sub-title">Personas</span>
+                <br/>
+                <br/>
+                <span className="sub-title">Workflows</span>
+                <br/>
+                <br/>
+                <span className="sub-title">Wireframes</span>
+                <br/>
+                <br/>
+                <span className="sub-title">Site Maps</span>
+                <br/>
+                <br/>
+                <span className="sub-title">Usability Testing</span>
+                <br/>
+                <br/>
+                <span className="sub-title">Interviews</span>
               </p>
             </div>
           </div>
           <div className="content">
             <div>
-              <p className="title">UX</p>
+              <p className="title">UI</p>
               <p className="title">
                 <br />
                 <span className="sub-title">Figma</span>
@@ -302,6 +320,15 @@ export default function About(): JSX.Element {
                 <br />
                 <br />
                 <span className="sub-title">Prototypes</span>
+                <br />
+                <br />
+                <span className="sub-title">Iconography</span>
+                <br />
+                <br />
+                <span className="sub-title">Design Systems</span>
+                <br />
+                <br />
+                <span className="sub-title">Interaction Design</span>
               </p>
             </div>
           </div>

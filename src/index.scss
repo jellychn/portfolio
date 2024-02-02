@@ -17,8 +17,6 @@ body {
 
 .container {
   position: relative;
-  width: 1000px;
-  padding: 0 64px;
   margin: auto;
 }
 
@@ -32,6 +30,22 @@ body {
 
 .show {
   opacity: 1;
+}
+
+// -- Responsiveness
+.tight {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.tighter {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.img-max {
+  width: 100%;
+  margin: 124px 0;
 }
 
 // -- Animation --

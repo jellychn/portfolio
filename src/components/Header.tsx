@@ -22,6 +22,7 @@ export default function About(): JSX.Element {
 
   return (
     <div className="header fadeIn">
+      <div className="navigation tight">
       <div className="divider" />
       {navigation.map((nav) => (
         <div>
@@ -34,6 +35,7 @@ export default function About(): JSX.Element {
           </p>
         </div>
       ))}
+      </div>
     </div>
   );
 }
