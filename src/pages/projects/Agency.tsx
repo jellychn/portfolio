@@ -245,7 +245,7 @@ export default function MBTI(): JSX.Element {
             onClick={() => navigate("/design")}
             className="align-center doodle back"
           >
-            View More Case Studies
+            VIEW MORE CASE STUDIES
           </button>
         </div>
       </div>

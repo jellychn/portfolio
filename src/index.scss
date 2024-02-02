@@ -32,6 +32,20 @@ body {
   opacity: 1;
 }
 
+.on {
+  color: #CCCCCC;
+  cursor: default;
+}
+
+.off {
+  cursor: pointer;
+
+  &:hover {
+      color: #EDAAAF;
+      transform: scale(1.2);
+  }
+}
+
 .breadcrum {
   margin-bottom: 64px;
   color: #B4BFCA;
@@ -40,6 +54,7 @@ body {
 // -- Responsiveness
 .tight {
   width: 1000px;
+  position: relative;
   margin: 0 auto;
 }
 

@@ -1,5 +1,5 @@
 import "./About.scss";
-import { useEffect, useRef, useState } from "react";
+import { useEffect } from "react";
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
 
@@ -10,6 +10,7 @@ import gym from "../assets/gym.png";
 import badmintion from "../assets/badminton.png";
 import running from "../assets/running.png";
 import scroll from "../assets/scroll.svg";
+import Trackball from "../hooks/Trackball";
 
 export default function About(): JSX.Element {
   useEffect(() => {
@@ -22,10 +23,10 @@ export default function About(): JSX.Element {
 
   const handleScroll = () => {
     const position = window.pageYOffset;
-    const hr = document.getElementById("hr");
+    const scrollThreshold = 300;
     const scroll = document.getElementById("scroll");
 
-    if (hr?.offsetTop && position > hr?.offsetTop) {
+    if (position > scrollThreshold) {
       scroll?.classList.remove("oscillate");
       scroll?.classList.add("oscillate-reverse");
     } else {
@@ -37,56 +38,6 @@ export default function About(): JSX.Element {
   const scrollToView = (): void => {
     const el = document.getElementById("info");
     el?.scrollIntoView({ behavior: "smooth" });
-  };
-
-  const scrollRef = useRef<HTMLDivElement>(null);
-  const [scrollDivPosition, setScrollDivPosition] = useState({ x: 0, y: 0 });
-
-  useEffect(() => {
-    const divElement = scrollRef.current;
-    if (divElement) {
-      divElement.addEventListener('mousemove', handleMouseMove);
-      divElement.addEventListener('mouseleave', handleMouseLeave);
-      divElement.addEventListener('mouseenter', handleMouseEnter);
-
-      return () => {
-        divElement.removeEventListener('mousemove', handleMouseMove);
-        divElement.removeEventListener('mouseleave', handleMouseLeave);
-        divElement.removeEventListener('mouseenter', handleMouseEnter);
-      };
-    }
-  }, []);
-
-  const handleMouseMove = (event: any) => {
-    if (scrollRef.current) {
-      const divRect = scrollRef.current.getBoundingClientRect();
-      const mouseX = event.clientX - divRect.left - divRect.width / 2;
-      const mouseY = event.clientY - divRect.top - divRect.height / 2;
-
-      setScrollDivPosition({
-        x: mouseX,
-        y: mouseY,
-      });
-    }
-  };
-
-  const handleMouseEnter = () => {
-    const scrollElement = document.getElementById("scroll");
-    if (scrollElement) {
-      scrollElement.style.border = "10px solid transparent";
-    }
-  }
-
-  const handleMouseLeave = () => {
-    setScrollDivPosition({ x: 0, y: 0 });
-    const scrollElement = document.getElementById("scroll");
-  
-    if (scrollElement) {
-      scrollElement.style.transition = 'all 0.3s ease-out';
-      scrollElement.style.left = '50%';
-      scrollElement.style.bottom = '154px';
-      scrollElement.style.border = "none";
-    }
   };
 
   return (
@@ -106,7 +57,7 @@ export default function About(): JSX.Element {
                 with a sprinkle of <br />
                 <span className="elegance">Elegance</span>.
             </span>
-            <hr id="hr" className="line" />
+            <hr className="line" />
             <div className="socials fadeIn">
               <a href="https://www.linkedin.com/in/jerry-chen-3235171b4/" target="_blank">
                 <img className="social" src={linkedin} alt="linkedin" />
@@ -117,26 +68,7 @@ export default function About(): JSX.Element {
             </div>
           </div>
         </div>
-        <div
-          ref={scrollRef} 
-          id="scroll" 
-          className="scroll oscillate" 
-          onClick={scrollToView}
-          style={{
-            bottom: `calc(154px - ${scrollDivPosition.y}px)`,
-            left: `calc(50% + ${scrollDivPosition.x}px)`,
-            transition: 'all 0.1s ease-out',
-          }}
-        >
-          <img 
-            src={scroll} 
-            style={{
-              top: `calc(50% + ${scrollDivPosition.y / 5}px)`,
-              left: `calc(50% + ${scrollDivPosition.x / 5}px)`,
-              transition: 'all 0.1s ease-out',
-            }}
-          />
-        </div>
+        <Trackball id="scroll" src={scroll} action={scrollToView} />
       </div>
       <div id="info" className="about-info fadeIn">
         <div className="section">

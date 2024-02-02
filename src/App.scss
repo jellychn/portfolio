@@ -135,6 +135,7 @@
             font-size: 28px;
             padding: 14px;
             margin: auto;
+            transition: color ease-in 0.1s;
 
             &:hover {
                 color: #7A8B97;
@@ -166,6 +167,7 @@
 
         &:hover {
             a {
+                transition: color ease-in 0.1s;
                 color: #7A8B97;
             }
         }

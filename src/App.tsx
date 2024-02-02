@@ -13,6 +13,8 @@ import Software from "./pages/Software";
 import Header from "./components/Header";
 import Agency from "./pages/projects/Agency";
 import ScrollToTop from "./tools/ScrollToTop";
+import Nav from "./components/Nav";
+import ScrollUp from "./components/ScrollUp";
 
 export const IsDesignContext = createContext(false);
 export const DesignDecisionsContext = createContext(false);
@@ -23,6 +25,7 @@ export default function App() {
       <ScrollToTop />
       <div className="container">
       <Header />
+      <Nav />
       <Routes>
         <Route path="/" element={<About />}></Route>
         <Route path="/design" element={<Design />}></Route>
@@ -30,7 +33,7 @@ export default function App() {
         <Route path="/design/Agency" element={<Agency />}></Route>
         <Route path="/software" element={<Software />}></Route>
       </Routes>
-      {/* <Footer /> */}
+      <ScrollUp />
       </div>
   </HashRouter>
   );
