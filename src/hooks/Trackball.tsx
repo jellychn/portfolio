@@ -57,7 +57,7 @@ export default function Trackball({ id, src, action }: { id: string, src: any; a
     <div
       ref={ref}
       id={id}
-      className="trackball"
+      className="trackball oscillate"
       onClick={action}
       style={{
         bottom: `calc(64px - ${scrollDivPosition.y}px)`,

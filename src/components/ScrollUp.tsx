@@ -5,6 +5,19 @@ import Trackball from "../hooks/Trackball";
 export default function ScrollUp(): JSX.Element {
     useEffect(() => {
       window.addEventListener('scroll', handleScroll, { passive: true });
+
+      const position = window.pageYOffset;
+      const scrollThreshold = 300;
+
+      const scroll = document.getElementById("scroll-up");
+
+      if (scroll) {
+        if (position > scrollThreshold) {
+          scroll.style.display = "block";
+        } else {
+          scroll.style.display = "none";
+        }
+      }
   
       return () => {
         window.removeEventListener('scroll', handleScroll);
@@ -17,12 +30,18 @@ export default function ScrollUp(): JSX.Element {
 
       const scroll = document.getElementById("scroll-up");
   
-      if (position > scrollThreshold) {
-        scroll?.classList.remove("oscillate-reverse");
-        scroll?.classList.add("oscillate");
-      } else {
-        scroll?.classList.remove("oscillate");
-        scroll?.classList.add("oscillate-reverse");
+      if (scroll) {
+        if (position > scrollThreshold) {
+          scroll.style.display = "block";
+          scroll?.classList.remove("oscillate-reverse");
+          scroll?.classList.add("oscillate");
+        } else {
+          scroll?.classList.remove("oscillate");
+          scroll?.classList.add("oscillate-reverse");
+          setTimeout(() => {
+            scroll.style.display = "none";
+          }, 500);
+        }
       }
     };
     
