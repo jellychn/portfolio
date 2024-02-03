@@ -67,6 +67,7 @@ export default function MBTI(): JSX.Element {
             <a
               href="https://www.16personalities.com/"
               target="_blank"
+              rel="noreferrer"
               className="highlight-light-grey italic underline"
             >
               MORE INFO

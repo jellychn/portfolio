@@ -3,7 +3,7 @@ import Project from "../components/Project";
 
 import mbti from "../assets/design/MBTI/bg.png";
 import agency from "../assets/design/agency/bg.png";
-import crypto from "../assets/design/crypto/bg.jpg";
+// import crypto from "../assets/design/crypto/bg.jpg";
 import commingsoon from "../assets/coming-soon.png";
 import { Type } from "../type/types";
 

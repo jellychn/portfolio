@@ -22,7 +22,7 @@ export default function Project({
   return (
     <div className={disabled ? "project disabled" : "project"}>
       <div className="display">
-        <img src={img} />
+        <img src={img} alt="project-display" />
       </div>
       <div className="info">
         <h2>{name}</h2>
@@ -61,7 +61,7 @@ const Button = ({
   if (!disabled) {
     if (type === Type.Software) {
       return (
-        <a href={url} target="_blank">
+        <a href={url} target="_blank" rel="noreferrer">
           <button>{buttonLabel}</button>
         </a>
       );

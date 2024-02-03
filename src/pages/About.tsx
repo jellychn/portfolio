@@ -45,7 +45,7 @@ export default function About(): JSX.Element {
       <div className="main">
         <div className="content">
           <h2 className="hi">
-            <img className="hand rotate" src={hand} />
+            <img className="hand rotate" src={hand} alt="hand" />
             <span className="flex">
               <span className="offset offset-odd">I'm, </span>
               <span className="offset offset-even">Jerry</span>
@@ -59,10 +59,10 @@ export default function About(): JSX.Element {
             </span>
             <hr className="line" />
             <div className="socials fadeIn">
-              <a href="https://www.linkedin.com/in/jerry-chen-3235171b4/" target="_blank">
+              <a href="https://www.linkedin.com/in/jerry-chen-3235171b4/" target="_blank" rel="noreferrer">
                 <img className="social" src={linkedin} alt="linkedin" />
               </a>
-              <a href="https://github.com/jellychn" target="_blank">
+              <a href="https://github.com/jellychn" target="_blank" rel="noreferrer">
                 <img className="social" src={github} alt="github" />
               </a>
             </div>
@@ -86,7 +86,7 @@ export default function About(): JSX.Element {
               <br />
               <br />
               My <span>Product Design</span> journey has just begun.
-              <img className="rad" src={rad} />
+              <img className="rad" src={rad} alt="rad" />
             </p>
           </div>
         </div>
@@ -271,10 +271,10 @@ export default function About(): JSX.Element {
           </div>
           <div className="content">
             <div>
-              <img src={boxing} />
-              <img src={gym} />
-              <img src={badmintion} />
-              <img src={running} />
+              <img src={boxing} alt="boxing" />
+              <img src={gym} alt="gym" />
+              <img src={badmintion} alt="badmintion" />
+              <img src={running} alt="running" />
             </div>
           </div>
         </div>
