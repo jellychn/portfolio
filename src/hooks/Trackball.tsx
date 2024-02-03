@@ -38,6 +38,8 @@ export default function Trackball({ id, src, action }: { id: string, src: any; a
     const scrollElement = document.getElementById(id);
     if (scrollElement) {
       scrollElement.style.border = "10px solid transparent";
+      scrollElement.style.width = "82px";
+      scrollElement.style.height = "82px";
     }
   };
 
@@ -50,6 +52,8 @@ export default function Trackball({ id, src, action }: { id: string, src: any; a
       scrollElement.style.left = "50%";
       scrollElement.style.bottom = "64px";
       scrollElement.style.border = "none";
+      scrollElement.style.width = "52px";
+      scrollElement.style.height = "52px";
     }
   };
 

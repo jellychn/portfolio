@@ -97,6 +97,8 @@ export default function Nav(): JSX.Element {
     const scrollElement = document.getElementById(id);
     if (scrollElement) {
       scrollElement.style.border = "10px solid transparent";
+      scrollElement.style.width = "62px";
+      scrollElement.style.height = "62px";
     }
   };
 
@@ -109,6 +111,8 @@ export default function Nav(): JSX.Element {
       scrollElement.style.right = "20px";
       scrollElement.style.top = "32px";
       scrollElement.style.border = "none";
+      scrollElement.style.width = "52px";
+      scrollElement.style.height = "52px";
     }
   };
 
