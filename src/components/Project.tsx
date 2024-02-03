@@ -16,10 +16,14 @@ export default function Project({
     disabled: boolean;
   };
 }): JSX.Element {
-  const { name, type, pills, description, buttonLabel, url, img, disabled } = project;
+  const { name, type, pills, description, buttonLabel, url, img, disabled } =
+    project;
 
   return (
     <div className={disabled ? "project disabled" : "project"}>
+      <div className="display">
+        <img src={img} />
+      </div>
       <div className="info">
         <h2>{name}</h2>
 
@@ -30,18 +34,30 @@ export default function Project({
         </div>
 
         <p>{description}</p>
-        <Button type={type} url={url} buttonLabel={buttonLabel} disabled={disabled} />
-      </div>
-      <div className="display">
-        <img src={img} />
+        <Button
+          type={type}
+          url={url}
+          buttonLabel={buttonLabel}
+          disabled={disabled}
+        />
       </div>
     </div>
   );
 }
 
-const Button = ({ type, url, buttonLabel, disabled }: { type: Type; url: string; buttonLabel: string; disabled: boolean }): JSX.Element | null => {
+const Button = ({
+  type,
+  url,
+  buttonLabel,
+  disabled,
+}: {
+  type: Type;
+  url: string;
+  buttonLabel: string;
+  disabled: boolean;
+}): JSX.Element | null => {
   const navigate = useNavigate();
-  
+
   if (!disabled) {
     if (type === Type.Software) {
       return (
@@ -50,8 +66,8 @@ const Button = ({ type, url, buttonLabel, disabled }: { type: Type; url: string;
         </a>
       );
     }
-  
-    return <button onClick={() => navigate(url)}>{buttonLabel}</button>
+
+    return <button onClick={() => navigate(url)}>{buttonLabel}</button>;
   }
 
   return null;

@@ -6,7 +6,6 @@
   display: none;
 
   .menu-wrapper {
-    width: 1000px;
     position: relative;
     margin: 0 auto;
     padding: 32px 0;
@@ -14,19 +13,20 @@
     #menu {
       cursor: pointer;
       position: absolute;
+      backdrop-filter: blur(10px);
+      background-color: rgba($color: #1d1d1d, $alpha: 0.15);
       right: 0;
       z-index: 10;
       border-radius: 10px;
       box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.1);
       width: 52px;
       height: 52px;
-      background-color: #edaaaf;
       border-radius: 10px;
       cursor: pointer;
       transition: background-color 0.3s ease-in;
 
       &:hover {
-        background-color: #000000;
+        background-color: rgba(0, 0, 0, .15);
       }
 
       img {
@@ -117,11 +117,12 @@
     opacity: 0;
     position: absolute;
     padding: 40px;
-    background-color: white;
+    background-color: rgba($color: #1d1d1d, $alpha: 0.1);
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
+    backdrop-filter: blur(10px);
 
     h1 {
       padding: 20px 40px;
@@ -129,5 +130,20 @@
       transition: all ease-in 0.1s;
       text-align: center;
     }
+
+    .on {
+      color: #CCCCCC;
+      cursor: default;
+    }
+    
+    .off {
+      cursor: pointer;
+      color: white;
+    
+      &:hover {
+          color: #EDAAAF;
+          transform: scale(1.2);
+      }
+    }    
   }
 }

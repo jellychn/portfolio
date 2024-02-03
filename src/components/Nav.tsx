@@ -106,7 +106,7 @@ export default function Nav(): JSX.Element {
 
     if (scrollElement) {
       scrollElement.style.transition = "all 0.3s ease-out";
-      scrollElement.style.right = "0";
+      scrollElement.style.right = "20px";
       scrollElement.style.top = "32px";
       scrollElement.style.border = "none";
     }
@@ -114,8 +114,6 @@ export default function Nav(): JSX.Element {
 
   const open = (): void => {
     setShowMenu(true);
-    console.log("hi")
-
 
     setTimeout(() => {
       const menuNav = document.getElementById("menu-navigation");
@@ -140,7 +138,7 @@ export default function Nav(): JSX.Element {
             onClick={open}
             style={{
               top: `calc(32px + ${scrollDivPosition.y}px)`,
-              right: `calc(-${scrollDivPosition.x}px)`,
+              right: `calc(20px - ${scrollDivPosition.x}px)`,
               transition: "all 0.1s ease-out",
             }}
           >

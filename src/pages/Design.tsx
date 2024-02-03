@@ -1,5 +1,4 @@
 import "./Design.scss";
-import design from "../assets/design.png";
 import Project from "../components/Project";
 
 import mbti from "../assets/design/MBTI/bg.png";
@@ -49,7 +48,6 @@ export default function Design(): JSX.Element {
     <div className="design tight">
       <div className="title-container">
         <h1 className="title offset offset-odd">Product Design.</h1>
-        <img className="emoji offset offset-even" src={design} />
       </div>
       <div className="fadeIn">
         {projects.map((project) => (

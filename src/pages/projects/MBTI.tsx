@@ -20,9 +20,9 @@ export default function MBTI(): JSX.Element {
     <div className="casestudy">
       <div className="tight">
         <div className="offset offset-odd">
-            <p className="breadcrum">/ Design / MBTI</p>
-            <h3 className="highlight-dark-grey">UX . UI . App</h3>
-            <h1 className="head-text">MBTI</h1>
+          <p className="breadcrum">/ Design / MBTI</p>
+          <h3 className="highlight-dark-grey">UX . UI . App</h3>
+          <h1 className="head-text">MBTI</h1>
         </div>
         <img className="bg fadeIn" src={bg} alt="bg" />
 
@@ -93,7 +93,7 @@ export default function MBTI(): JSX.Element {
           </div>
 
           <h1>Why is it important?</h1>
-          <div className="flex">
+          <div className="why">
             <p>
               The{" "}
               <span className="highlight-pink">
@@ -320,7 +320,7 @@ export default function MBTI(): JSX.Element {
           </p>
           <div className="useability-table">
             <div className="useability-table-inner">
-              <div className="flex">
+              <div className="useability-wrapper">
                 <div className="insights">
                   <h5>PRIMARY INSIGHTS</h5>
                   <h3 className="highlight-light-grey italic">
@@ -328,7 +328,6 @@ export default function MBTI(): JSX.Element {
                   </h3>
                 </div>
                 <div className="analysis">
-                  <h5>ANALYSIS</h5>
                   <p>
                     When user first see the home page with the navigation bar
                     the icons can be miss interpreted, therefor added extra
@@ -338,7 +337,7 @@ export default function MBTI(): JSX.Element {
                 </div>
               </div>
 
-              <div className="flex">
+              <div className="useability-wrapper">
                 <div className="insights">
                   <h3 className="highlight-light-grey italic">
                     Differ between Taken / Has not Taken Assessment
@@ -379,12 +378,12 @@ export default function MBTI(): JSX.Element {
                   <div className="col" style={{ backgroundColor: "#1C414D" }} />
                   <p className="highlight-dark-grey">#1C414D</p>
                 </div>
+              </div>
+              <div className="pallet">
                 <div className="color">
                   <div className="col" style={{ backgroundColor: "#614919" }} />
                   <p className="highlight-dark-grey">#614919</p>
                 </div>
-              </div>
-              <div className="pallet">
                 <div className="color">
                   <div className="col" style={{ backgroundColor: "#88619A" }} />
                   <p className="highlight-dark-grey">#88619A</p>
@@ -393,6 +392,8 @@ export default function MBTI(): JSX.Element {
                   <div className="col" style={{ backgroundColor: "#33A474" }} />
                   <p className="highlight-dark-grey">#33A474</p>
                 </div>
+              </div>
+              <div className="pallet">
                 <div className="color">
                   <div className="col" style={{ backgroundColor: "#4298B4" }} />
                   <p className="highlight-dark-grey">#4298B4</p>
@@ -401,12 +402,12 @@ export default function MBTI(): JSX.Element {
                   <div className="col" style={{ backgroundColor: "#E4AE3A" }} />
                   <p className="highlight-dark-grey">#E4AE3A</p>
                 </div>
-              </div>
-              <div className="pallet">
                 <div className="color">
                   <div className="col" style={{ backgroundColor: "#E7DFEA" }} />
                   <p className="highlight-dark-grey">#E7DFEA</p>
                 </div>
+              </div>
+              <div className="pallet">
                 <div className="color">
                   <div className="col" style={{ backgroundColor: "#D6ECE3" }} />
                   <p className="highlight-dark-grey">#D6ECE3</p>
@@ -445,7 +446,7 @@ export default function MBTI(): JSX.Element {
             onClick={() => navigate("/design")}
             className="align-center back"
           >
-            VIEW MORE CASE STUDIES
+            VIEW MORE
           </button>
         </div>
       </div>

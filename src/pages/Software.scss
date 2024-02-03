@@ -5,19 +5,10 @@
     .title-container {
         display: flex;
         margin-bottom: 124px;
+        justify-content: center;
 
         .title {
-            font-size: 96px;
             margin: 0;
-        }
-
-        .emoji {
-            width: 64px;
-            height: 64px;
-            margin-top: auto;
-            position: relative;
-            bottom: 20px;
-            margin-left: 10px;
         }
     }
 }

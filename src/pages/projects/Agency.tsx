@@ -24,9 +24,9 @@ export default function MBTI(): JSX.Element {
     <div className="casestudy">
       <div className="tight">
         <div className="offset offset-odd">
-            <p className="breadcrum">/ Design / Design Agency</p>
-            <h3 className="highlight-dark-grey">UX . UI . Desktop</h3>
-            <h1 className="head-text">Design Agency</h1>
+          <p className="breadcrum">/ Design / Design Agency</p>
+          <h3 className="highlight-dark-grey">UX . UI . Desktop</h3>
+          <h1 className="head-text">Design Agency</h1>
         </div>
         <img className="bg fadeIn" src={bg} alt="bg" />
 
@@ -67,9 +67,7 @@ export default function MBTI(): JSX.Element {
       <div className="section-grey fadeIn">
         <div className="tight">
           <h3 className="highlight-dark-grey">WHO</h3>
-          <div className="for">
-            <h1>Personas</h1>
-          </div>
+          <h1>Personas</h1>
           <div className="persona tighten">
             <img src={man} alt="man" />
             <div className="persona-info">
@@ -197,6 +195,8 @@ export default function MBTI(): JSX.Element {
                   <div className="col" style={{ backgroundColor: "#1D1D1D" }} />
                   <p className="highlight-dark-grey">#1D1D1D</p>
                 </div>
+              </div>
+              <div className="pallet">
                 <div className="color">
                   <div className="col" style={{ backgroundColor: "#FF836F" }} />
                   <p className="highlight-dark-grey">#FF836F</p>
@@ -245,7 +245,7 @@ export default function MBTI(): JSX.Element {
             onClick={() => navigate("/design")}
             className="align-center doodle back"
           >
-            VIEW MORE CASE STUDIES
+            VIEW MORE
           </button>
         </div>
       </div>

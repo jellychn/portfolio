@@ -1,5 +1,4 @@
 import "./Software.scss";
-import software from "../assets/software.png";
 import Project from "../components/Project";
 
 import tricor from "../assets/software/tricor.png";
@@ -56,7 +55,6 @@ export default function Software(): JSX.Element {
     <div className="software tight">
       <div className="title-container">
         <h1 className="title offset offset-odd">Software.</h1>
-        <img className="emoji offset offset-even" src={software} />
       </div>
       <div className="fadeIn">
         {projects.map((project) => (

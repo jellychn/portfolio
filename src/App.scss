@@ -28,21 +28,14 @@
     h1 {
         margin: 0;
         padding: 0;
-        font-size: 36px;
-    }
-
-    h2 {
-        font-size: 32px;
     }
 
     h3 {
         margin: 0;
-        font-size: 18px;
     }
 
     p {
         line-height: 24px;
-        font-size: 20px;
         font-weight: 500;
     }
 
@@ -82,7 +75,6 @@
 
 
     .project-details {
-        display: flex;
         margin-top: 32px;
 
         .project-details-section {
@@ -134,17 +126,11 @@
             border: 0;
             font-size: 28px;
             padding: 14px;
-            margin: auto;
             transition: color ease-in 0.1s;
 
             &:hover {
                 color: #7A8B97;
             }
-        }
-
-        li {
-            font-size: 24px;
-            line-height: 64px;
         }
     }
 
@@ -175,10 +161,6 @@
 
     .important {
         width: 40%;
-    }
-
-    .for {
-        margin-bottom: 124px;
     }
 
     .persona {
@@ -236,7 +218,13 @@
             margin: auto;
         }
 
+        .useability-wrapper {
+            padding: 20px 0;
+        }
+
         .insights {
+            padding-bottom: 10px;
+
             h3 {
                 font-size: 20px;
                 padding-right: 64px;
@@ -252,7 +240,7 @@
 
             p {
                 border-left: 1px solid #E6E6E6;
-                padding-left: 64px;
+                padding-left: 32px;
             }
         }
     }
@@ -276,12 +264,16 @@
                     height: 92px;
                     border-radius: 100%;
                 }
+
+                p {
+                    text-align: center;
+                }
             }
         }
     }
 
     .iconography {
-        margin: 92px;
+        margin: 92px 0;
 
         h2 {
             margin: 64px;
@@ -297,5 +289,9 @@
                 margin: auto;
             }
         }
+    }
+
+    .why {
+        display: flex;
     }
 }
