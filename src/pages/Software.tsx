@@ -1,15 +1,15 @@
 import "./Software.scss";
 import Project from "../components/Project";
 
-import tricor from "../assets/software/tricor.png";
-import lawvu from "../assets/software/lawvu.png";
-import canit from "../assets/software/canit.png";
+import daveclark from "../assets/software/daveclark.svg";
+import lawvu from "../assets/software/lawvu.svg";
+import canit from "../assets/software/canit.svg";
 import { Type } from "../type/types";
 
 export default function Software(): JSX.Element {
   const projects = [
     {
-      name: "Tricor",
+      name: "Dave Clark",
       type: Type.Software,
       pills: [
         "React",
@@ -24,7 +24,7 @@ export default function Software(): JSX.Element {
         "As a software engineer with Dave Clark, I played a pivotal role in the development of the Tricor project—an international, cutting-edge software designed to facilitate seamless corporate onboarding for global companies.",
       buttonLabel: "View",
       url: "https://www.tricorglobal.com/",
-      img: tricor,
+      img: daveclark,
       disabled: false
     },
     {
