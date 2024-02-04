@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.10703db1.css",
-    "main.js": "/portfolio/static/js/main.0ca4e391.js",
+    "main.js": "/portfolio/static/js/main.600d02d8.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/high-fi.png": "/portfolio/static/media/high-fi.c2d449dfc41a883d6434.png",
-    "static/media/bg.png": "/portfolio/static/media/bg.d01e216af9d49b707ea4.png",
+    "static/media/bg.png": "/portfolio/static/media/bg.685fddd139ae5d6d5a49.png",
     "static/media/coming-soon.png": "/portfolio/static/media/coming-soon.a33a69769620dbfc8b06.png",
     "static/media/bg-img.png": "/portfolio/static/media/bg-img.159b2f3d9c8bfd7b665f.png",
     "static/media/low-fi.png": "/portfolio/static/media/low-fi.49f75c94b5a26d9c0adb.png",
@@ -18,15 +18,15 @@
     "static/media/boxing.png": "/portfolio/static/media/boxing.7b0248edc5643f457752.png",
     "static/media/running.png": "/portfolio/static/media/running.602b5a7874a33a84fa3e.png",
     "static/media/rad.png": "/portfolio/static/media/rad.be9c1665ed4f8d68bd2e.png",
-    "static/media/canit.svg": "/portfolio/static/media/canit.6f5cb73a9c91c94186512135c54d99f5.svg",
+    "static/media/canit.svg": "/portfolio/static/media/canit.f83a69ab94ed858fa222ad0c72e320c5.svg",
     "static/media/anne.svg": "/portfolio/static/media/anne.5109ce1d551a486720f10dfb5cdd1591.svg",
     "static/media/important.svg": "/portfolio/static/media/important.756b3e02d81e257c01807e949a663989.svg",
     "static/media/jo.svg": "/portfolio/static/media/jo.21bfc1827452a21a2492f664e129dc6c.svg",
     "static/media/jess.svg": "/portfolio/static/media/jess.ddb3cf9f5e61cb5c707624765cf2f80f.svg",
     "static/media/lawvu.svg": "/portfolio/static/media/lawvu.e8712eb7b86b086b7ef2d883f21bb1a2.svg",
     "static/media/woman.svg": "/portfolio/static/media/woman.2eac4bb25d4cb3e16b564c5ff4d2a929.svg",
+    "static/media/daveclark.svg": "/portfolio/static/media/daveclark.cb115185eb4a82b5eaa9cc5b22b48a0d.svg",
     "static/media/balloon.svg": "/portfolio/static/media/balloon.1f63e705fd48c2d7f746868a08b3635e.svg",
-    "static/media/daveclark.svg": "/portfolio/static/media/daveclark.05c0c8ab67887d185074cb8a3bea4579.svg",
     "static/media/idea.svg": "/portfolio/static/media/idea.7881b50b6b908a7d1fb3be2455923709.svg",
     "static/media/man.svg": "/portfolio/static/media/man.bf9fda19585af414e6c0a6396afee96c.svg",
     "static/media/notes.svg": "/portfolio/static/media/notes.79258fafbc81621a738765df5001f2d4.svg",
@@ -48,11 +48,11 @@
     "static/media/scroll-up.svg": "/portfolio/static/media/scroll-up.bdd77fb2dc2f3b807f409e851d277bf1.svg",
     "static/media/menu.svg": "/portfolio/static/media/menu.1b1769ee288bbad3fee56610bdb6940f.svg",
     "main.10703db1.css.map": "/portfolio/static/css/main.10703db1.css.map",
-    "main.0ca4e391.js.map": "/portfolio/static/js/main.0ca4e391.js.map",
+    "main.600d02d8.js.map": "/portfolio/static/js/main.600d02d8.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10703db1.css",
-    "static/js/main.0ca4e391.js"
+    "static/js/main.600d02d8.js"
   ]
 }
