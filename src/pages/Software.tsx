@@ -23,7 +23,7 @@ export default function Software(): JSX.Element {
       description:
         "As a software engineer with Dave Clark, I played a pivotal role in the development of the Tricor project—an international, cutting-edge software designed to facilitate seamless corporate onboarding for global companies.",
       buttonLabel: "View",
-      url: "https://www.tricorglobal.com/",
+      url: "https://www.daveclarkdesign.com/en-nz",
       img: daveclark,
       disabled: false
     },
