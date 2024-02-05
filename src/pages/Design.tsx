@@ -32,7 +32,7 @@ export default function Design(): JSX.Element {
       disabled: false
     },
     {
-      name: "Crypto Dashboard",
+      name: "Agency Helper",
       type: Type.Design,
       pills: ["UX", "UI", "Desktop", "App"],
       description:
