@@ -83,9 +83,6 @@ export default function About(): JSX.Element {
               <span>Software Engineering</span> field, crafting beautiful
               frontend components as well as being tech savvy with backend
               development.
-              <br />
-              <br />
-              My <span>Product Design</span> journey has just begun.
               <img className="rad" src={rad} alt="rad" />
             </p>
           </div>
