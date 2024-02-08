@@ -11,8 +11,11 @@ import badmintion from "../assets/badminton.png";
 import running from "../assets/running.png";
 import scroll from "../assets/scroll.svg";
 import Trackball from "../hooks/Trackball";
+import { useNavigate } from "react-router-dom";
 
 export default function About(): JSX.Element {
+  const navigate = useNavigate();
+  
   useEffect(() => {
     window.addEventListener('scroll', handleScroll, { passive: true });
 
@@ -83,7 +86,15 @@ export default function About(): JSX.Element {
               <span>Software Engineering</span> field, crafting beautiful
               frontend components as well as being tech savvy with backend
               development.
+              <br />
+              <br />
+              Looking to expand into <span>Product Design</span>.
               <img className="rad" src={rad} alt="rad" />
+              <br />
+              <br />
+              <hr />
+              <button className="view-portfolio" onClick={() => navigate("/design")}>Design Portfolio</button>
+              <button className="view-portfolio" onClick={() => navigate("/software")}>Software Portfolio</button>
             </p>
           </div>
         </div>
