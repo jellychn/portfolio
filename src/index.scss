@@ -40,23 +40,6 @@ body {
   color: #B4BFCA;
 }
 
-button {
-  padding: 15px 30px;
-  background-color: black;
-  border: none;
-  color: white;
-  font-weight: 600;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: box-shadow 0.3s ease;
-  font-family: 'Figtree', sans-serif;
-  font-size: 16px;
-
-  &:hover {
-      box-shadow: 8px 8px 0 1px #ddd;
-  }
-}
-
 // -- Responsiveness
 .tight {
   padding: 40px;
