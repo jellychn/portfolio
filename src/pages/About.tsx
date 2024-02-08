@@ -137,7 +137,7 @@ export default function About(): JSX.Element {
               </p>
               <p className="title">Software Engineer</p>
               <br />
-              <p className="sub-title">Oct 2020 - Jan 2022</p>
+              <p className="sub-title">Feb 2020 - Jan 2022</p>
             </div>
           </div>
         </div>
