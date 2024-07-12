@@ -90,7 +90,7 @@ export default function About(): JSX.Element {
               <br />
               &
               <br />
-              2 years experience as a <span>Product Design</span>.
+              2 years experience as a <span>Product Designer</span>.
               <img className="rad" src={rad} alt="rad" />
               <br />
               <br />
