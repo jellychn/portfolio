@@ -82,15 +82,15 @@ export default function About(): JSX.Element {
             <p>
               Hi, I’m Jerry.
               <br />
-              <br />I have 4.5 years of experience in the{" "}
-              <span>Software Engineering</span> field, crafting beautiful
+              <br />I have 4 and a half years experience in{" "}
+              <span>Software Engineering</span>, crafting beautiful
               frontend components as well as being tech savvy with backend
               development.
               <br />
               <br />
               &
               <br />
-              2 years experience in <span>Product Design</span>.
+              2 years experience as a <span>Product Design</span>.
               <img className="rad" src={rad} alt="rad" />
               <br />
               <br />
