@@ -65,7 +65,7 @@ export default function Trackball({ id, src, action }: { id: string, src: any; a
       onClick={action}
       style={{
         bottom: `calc(64px - ${scrollDivPosition.y}px)`,
-        left: `calc(50% + ${scrollDivPosition.x}px)`,
+        left: `calc(50% - 26px + ${scrollDivPosition.x}px)`,
         transition: "all 0.1s ease-out",
       }}
     >

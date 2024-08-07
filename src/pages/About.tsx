@@ -62,9 +62,9 @@ export default function About(): JSX.Element {
             </span>
             <hr className="line" />
             <div className="socials fadeIn">
-              <a href="https://www.linkedin.com/in/jerry-chen-3235171b4/" target="_blank" rel="noreferrer">
+              {/* <a href="https://www.linkedin.com/in/jerry-chen-3235171b4/" target="_blank" rel="noreferrer">
                 <img className="social" src={linkedin} alt="linkedin" />
-              </a>
+              </a> */}
               <a href="https://github.com/jellychn" target="_blank" rel="noreferrer">
                 <img className="social" src={github} alt="github" />
               </a>
@@ -95,8 +95,8 @@ export default function About(): JSX.Element {
               <br />
               <br />
               <hr />
-              <button className="view-portfolio" onClick={() => navigate("/design")}>Design Portfolio</button>
               <button className="view-portfolio" onClick={() => navigate("/software")}>Software Portfolio</button>
+              <button className="view-portfolio" onClick={() => navigate("/design")}>Design Portfolio</button>
             </p>
           </div>
         </div>
