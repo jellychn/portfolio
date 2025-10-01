@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.409c8f8c.css",
-    "main.js": "/portfolio/static/js/main.8a5cf5d2.js",
+    "main.css": "/portfolio/static/css/main.0f38bf7b.css",
+    "main.js": "/portfolio/static/js/main.1c71e0bc.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/high-fi.png": "/portfolio/static/media/high-fi.c2d449dfc41a883d6434.png",
     "static/media/bg.png": "/portfolio/static/media/bg.685fddd139ae5d6d5a49.png",
@@ -43,15 +43,16 @@
     "static/media/traits.svg": "/portfolio/static/media/traits.a0e3907fcc89d3162955716b93bed214.svg",
     "static/media/personalities.svg": "/portfolio/static/media/personalities.60cb9c103fa65f72b3da5f6b2787a3b0.svg",
     "static/media/book.svg": "/portfolio/static/media/book.d1ebaa4d379a5692a34e20cfe4b068fd.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.13eec78f4b3a725b5eff6b0ade99eec3.svg",
     "static/media/scroll.svg": "/portfolio/static/media/scroll.5623008c50fd3c010ae8153bfdcc1a35.svg",
     "static/media/scroll-up.svg": "/portfolio/static/media/scroll-up.bdd77fb2dc2f3b807f409e851d277bf1.svg",
     "static/media/menu.svg": "/portfolio/static/media/menu.1b1769ee288bbad3fee56610bdb6940f.svg",
-    "main.409c8f8c.css.map": "/portfolio/static/css/main.409c8f8c.css.map",
-    "main.8a5cf5d2.js.map": "/portfolio/static/js/main.8a5cf5d2.js.map",
+    "main.0f38bf7b.css.map": "/portfolio/static/css/main.0f38bf7b.css.map",
+    "main.1c71e0bc.js.map": "/portfolio/static/js/main.1c71e0bc.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.409c8f8c.css",
-    "static/js/main.8a5cf5d2.js"
+    "static/css/main.0f38bf7b.css",
+    "static/js/main.1c71e0bc.js"
   ]
 }
