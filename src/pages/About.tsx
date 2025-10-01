@@ -15,12 +15,12 @@ import { useNavigate } from "react-router-dom";
 
 export default function About(): JSX.Element {
   const navigate = useNavigate();
-  
+
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll, { passive: true });
+    window.addEventListener("scroll", handleScroll, { passive: true });
 
     return () => {
-        window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -36,7 +36,7 @@ export default function About(): JSX.Element {
       scroll?.classList.remove("oscillate-reverse");
       scroll?.classList.add("oscillate");
     }
-};
+  };
 
   const scrollToView = (): void => {
     const el = document.getElementById("info");
@@ -56,16 +56,24 @@ export default function About(): JSX.Element {
           </h2>
           <div className="quote">
             <span className="fadeIn">
-                Technical, <br />
-                with a sprinkle of <br />
-                <span className="elegance">Elegance</span>.
+              Technical, <br />
+              with a sprinkle of <br />
+              <span className="elegance">Elegance</span>.
             </span>
             <hr className="line" />
             <div className="socials fadeIn">
-              {/* <a href="https://www.linkedin.com/in/jerry-chen-3235171b4/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.linkedin.com/in/jerry-chen-3235171b4/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img className="social" src={linkedin} alt="linkedin" />
-              </a> */}
-              <a href="https://github.com/jellychn" target="_blank" rel="noreferrer">
+              </a>
+              <a
+                href="https://github.com/jellychn"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img className="social" src={github} alt="github" />
               </a>
             </div>
@@ -83,20 +91,30 @@ export default function About(): JSX.Element {
               Hi, I’m Jerry.
               <br />
               <br />I have 4 and a half years experience in{" "}
-              <span>Software Engineering</span>, crafting beautiful
-              frontend components as well as being tech savvy with backend
-              development.
+              <span>Software Engineering</span>, crafting beautiful frontend
+              components as well as being tech savvy with backend development.
               <br />
               <br />
               &
-              <br />
-              2 years experience as a <span>Product Designer</span>.
+              <br />2 years experience as a <span>Product Designer</span>.
               <img className="rad" src={rad} alt="rad" />
               <br />
               <br />
               <hr />
-              <button className="view-portfolio" onClick={() => navigate("/software")}>Software Portfolio</button>
-              <button className="view-portfolio" onClick={() => navigate("/design")}>Design Portfolio</button>
+              <div className="view-portfolio-container">
+                <button
+                  className="view-portfolio"
+                  onClick={() => navigate("/software")}
+                >
+                  Software Portfolio
+                </button>
+                <button
+                  className="view-portfolio"
+                  onClick={() => navigate("/design")}
+                >
+                  Design Portfolio
+                </button>
+              </div>
             </p>
           </div>
         </div>
@@ -124,9 +142,7 @@ export default function About(): JSX.Element {
           </div>
           <div className="content">
             <div>
-              <p className="sub-title">
-                Dave Clark Design, Auckland, NZ
-              </p>
+              <p className="sub-title">Dave Clark Design, Auckland, NZ</p>
               <p className="title">Software Engineer</p>
               <br />
               <p className="sub-title">Mar 2023 - Present</p>
@@ -142,9 +158,7 @@ export default function About(): JSX.Element {
               <hr />
             </div>
             <div>
-              <p className="sub-title">
-                CanIT Limited, Christcurch, NZ
-              </p>
+              <p className="sub-title">CanIT Limited, Christcurch, NZ</p>
               <p className="title">Software Engineer</p>
               <br />
               <p className="sub-title">Feb 2020 - Jan 2022</p>
@@ -226,23 +240,23 @@ export default function About(): JSX.Element {
               <p className="title">
                 <br />
                 <span className="sub-title">User Journey maps</span>
-                <br/>
-                <br/>
+                <br />
+                <br />
                 <span className="sub-title">Personas</span>
-                <br/>
-                <br/>
+                <br />
+                <br />
                 <span className="sub-title">Workflows</span>
-                <br/>
-                <br/>
+                <br />
+                <br />
                 <span className="sub-title">Wireframes</span>
-                <br/>
-                <br/>
+                <br />
+                <br />
                 <span className="sub-title">Site Maps</span>
-                <br/>
-                <br/>
+                <br />
+                <br />
                 <span className="sub-title">Usability Testing</span>
-                <br/>
-                <br/>
+                <br />
+                <br />
                 <span className="sub-title">Interviews</span>
               </p>
             </div>
